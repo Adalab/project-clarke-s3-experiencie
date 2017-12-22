@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "",
-"sources": [],
-"names": [],
-"file": "main.css"
-}
+{"version":3,"sources":["main.scss","main.css"],"names":[],"mappings":"AAiBA;EACA,sBAAqB;CChBpB","file":"main.css","sourcesContent":["@import \"core/funciones\";\n@import \"core/variables\";\n@import \"core/mixins\";\n\n@import \"layout/header\";\n@import \"layout/footer\";\n@import \"layout/grid\";\n\n@import \"components/buttons\";\n@import \"components/hero\";\n@import \"components/typography\";\n@import \"components/forms\";\n\n@import \"pages/about-us\";\n@import \"pages/contact\";\n@import \"pages/home\";\n\nbody {\nbackground-color: red;\n}\n","body {\n  background-color: red;\n}\n"]}
