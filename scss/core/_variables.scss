@@ -2,4 +2,62 @@ $color-primary: #6fb52b;
 $color-light: white;
 $color-dark: black;
 $color-midTone-dark: #444;
-$color-midTone-light: #999; 
+$color-midTone-light: #999;
+
+/*altura header y footer*/
+// $head-bottom-height-xs: 100px;
+// $head-bottom-height-s: 100px;
+$head-bottom-height-m: 80px;
+// $head-bottom-height-l: 100px;
+$head-bottom-height-xl: 100px;
+
+/*anchura logo header pantalla movil*/
+$logo-header-width-m: 150px;
+
+/*anchura logo footer pantalla grande y pequeña*/
+$logo-footer-width-xl: 100px;
+$logo-footer-width-m: 80px;
+
+
+
+
+/*variables tipografias BODY*/
+$body-font-family: 'Crimson Text', serif;
+
+$body-font-size-xs: 12px;
+$body-font-size-s: 16px;
+$body-font-size-m: 18px;
+$body-font-size-l: 20px;
+$body-font-size-xl: 30px;
+
+$body-line-height: 1.5;
+
+$body-font-color-dark: $color-midTone-dark;
+$body-font-color-light: $color-light;
+
+$body-font-weight-normal: 400;
+$body-font-weight-bold: 600;
+
+/*variables tipografias TITULARES*/
+$title-font-family: 'Barlow Semi Condensed', sans-serif;
+
+$title-font-size-xs: 12px;
+$title-font-size-s: 16px;
+$title-font-size-m: 20px;
+$title-font-size-m-l: 25px;
+$title-font-size-l: 50px;
+$title-font-size-xl: 90px;
+$title-font-size-xxl: 150px;
+
+
+$title-line-height: 1.5;
+
+$title-font-color-primary: $color-primary;
+$title-font-color-dark: $color-midTone-dark;
+$title-font-color-light: $color-light;
+
+$title-font-weight-normal: 400;
+$title-font-weight-bold: 600;
+$title-font-weight-bolder: 800;
+
+$title-font-letter-spacing: 10px;

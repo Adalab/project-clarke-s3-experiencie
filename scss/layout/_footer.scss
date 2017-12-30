@@ -1,0 +1,12 @@
+footer{
+  @include bottom();
+}
+
+.logo-into-footer{
+  height: $head-bottom-height-xl;
+  width: $logo-footer-width-xl;
+  @media (max-width: 500px){
+    height: $head-bottom-height-m;
+    width: $logo-footer-width-m;
+  }
+}

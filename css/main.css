@@ -1,5 +1,213 @@
-body {
-  background-color: red;
+@charset "UTF-8";/*altura header y footer*//*anchura logo header pantalla movil*//*anchura logo footer pantalla grande y pequeña*//*variables tipografias BODY*//*variables tipografias TITULARES*/header {
+  width: 100%;
+  position: fixed;
+  background: none;
+ /*ponendolo asì, es feo cuando el cuadro de slide se pone por encima a el header*/
+  top: 0px;
+  height: 100px;
+  z-index: 10;
+}
+
+header:hover {
+  background: #6fb52b;
+  opacity: 0.8;
+}
+
+.logo-into-header {
+  height: 100px;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  background: #6fb52b;
+  opacity: 0.7;
+  top: 560px;
+  height: 100px;
+}
+
+.logo-into-footer {
+  height: 100px;
+  width: 100px;
+}
+
+.grid {
+  height: 1100px;
+  background-image: url("../images/cie-1024x682BN.jpg");
+  background-size: cover;
+}
+
+.buttons {
+  margin-top: 10%;
+  margin-left: 8%;
+  margin-right: 8%;
+  border: 2px solid #6fb52b;
+  background: none;
+  font-family: "Crimson Text", serif;
+  text-transform: uppercase;
+}
+
+.larger-text {
+  font-size: 90px;
+  color: white;
+  text-align: center;
+}
+
+.smaller-text {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+hr {
+  border: #6fb52b;
+  border-style: inset;
+  border-width: 1px;
+}/*texto general-cuerpo de texto*/body {
+  font-family: "Crimson Text", serif;
+  color: #444;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}/*cuerpo de texto blanco*/.font-body-light {
+  font-family: "Crimson Text", serif;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.font-captation-light {
+  font-family: "Crimson Text", serif;
+  color: white;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: italic;
+}/*clases para titulos cabecera en blanco*/.font-title-hero-light {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 90px;
+  line-height: 1.5;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 10px;
+}/*clases para titulos cabecera en verde*/.font-title-hero-primary {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 90px;
+  line-height: 1.5;
+  color: #6fb52b;
+  font-weight: 600;
+  letter-spacing: 10px;
+}/*clases para titulos de secciones internas: testimonios etc*/.font-title-section-light {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 150px;
+  line-height: 1.5;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.font-nav-light {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 10px;
+}/*clases tamaño (para usar si queremos aumentar el tamaño de algún estilo no definido)*/.medium {
+  font-size: 25px;
+}
+
+.big {
+  font-size: 35px;
+}
+
+.bigger {
+  font-size: 45px;
+}/*clases para alinear el texto*/.txt-center {
+  text-align: center;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}/*clases para cursivas*/.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bolder;
+}/*clase para mayusuculas*/.uppercase {
+  text-transform: uppercase;
+}
+
+.frase-adivina {
+  margin-left: 8%;
+  margin-top: 30%;
+}
+
+.cuadro-slides {
+  border: 2px solid #6fb52b;
+  margin-left: 8%;
+  text-transform: uppercase;
+}
+
+.color-primary {
+  color: #6fb52b;
+}
+
+.contador {
+  margin-top: 10%;
+  margin-left: 8%;
+  background: #6fb52b;
+  font-family: "Crimson Text", serif;
+}
+
+.final-paragraph-home {
+  margin-top: 10%;
+  margin-left: 12%;
+  margin-right: 12%;
+  text-align: justify;
+}/*@import "pages/about-us";
+@import "pages/contact"; */@media (max-width: 500px) {
+  header {
+    height: 80px;
+  }
+
+  .logo-into-header {
+    height: 80px;
+    width: 150px;
+  }
+
+  footer {
+    height: 80px;
+  }
+
+  .logo-into-footer {
+    height: 80px;
+    width: 80px;
+  }
+
+  .larger-text {
+    margin-left: -10%;
+    font-size: 25px;
+  }
+
+  .smaller-text {
+    font-size: 12px;
+  }
+
+  .cuadro-slides {
+    font-size: 30px;
+  }
+
+  .contador {
+    font-size: 90px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

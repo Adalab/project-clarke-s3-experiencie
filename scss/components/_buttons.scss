@@ -1,0 +1,35 @@
+.buttons{
+  margin-top: 10%;
+  margin-left: 8%;
+  margin-right: 8%;
+  border: 2px solid $color-primary;
+  background: none;
+  font-family: $body-font-family;
+  text-transform: uppercase;
+}
+
+.larger-text{
+font-size: $title-font-size-xl; //no es el definitivo, lo he puesto solo apra poner el media queries
+color: $color-light;
+text-align: center;
+
+  @media (max-width: 500px){
+    margin-left: -10%;
+  font-size: $title-font-size-m-l;
+  }
+  }
+
+.smaller-text{
+font-size: $title-font-size-l; //no es el definitivo, lo he puesto solo apra poner el media queries
+color: $color-light;
+text-align: center;
+  @media (max-width: 500px){
+  font-size: $title-font-size-xs;
+  }
+  }
+
+  hr{
+    border: $color-primary;
+    border-style: inset;
+    border-width: 1px;
+  }

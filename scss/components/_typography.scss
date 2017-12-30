@@ -1,0 +1,86 @@
+/*texto general-cuerpo de texto*/
+body {
+  font-family: $body-font-family;
+  color: $body-font-color-dark;
+  font-size: $body-font-size-s;
+  line-height: $body-line-height;
+  font-weight: $body-font-weight-normal;
+}
+
+/*cuerpo de texto blanco*/
+.font-body-light {
+  font-family: $body-font-family;
+  color: $body-font-color-light;
+  font-size: $body-font-size-s;
+  line-height: $body-line-height;
+  font-weight: $body-font-weight-normal;
+}
+
+.font-captation-light {
+  font-family: $body-font-family;
+  color: $body-font-color-light;
+  font-size: $body-font-size-xs;
+  line-height: $body-line-height;
+  font-weight: $body-font-weight-normal;
+  font-style: italic;
+}
+
+/*clases para titulos cabecera en blanco*/
+.font-title-hero-light {
+  font-family: $title-font-family;
+  font-size: $title-font-size-xl;
+  line-height: $title-line-height;
+  color: $color-light;
+  font-weight: $title-font-weight-bold;
+  letter-spacing: $title-font-letter-spacing;
+}
+
+/*clases para titulos cabecera en verde*/
+.font-title-hero-primary {
+  font-family: $title-font-family;
+  font-size: $title-font-size-xl;
+  line-height: $title-line-height;
+  color: $color-primary;
+  font-weight: $title-font-weight-bold;
+  letter-spacing: $title-font-letter-spacing;
+}
+
+/*clases para titulos de secciones internas: testimonios etc*/
+.font-title-section-light {
+  font-family: $title-font-family;
+  font-size: $title-font-size-xxl;
+  line-height: $title-line-height;
+  color: $color-light;
+  font-weight: $title-font-weight-bolder;
+  letter-spacing: $title-font-letter-spacing;
+  text-align: center;
+}
+
+.font-nav-light {
+  font-family: $title-font-family;
+  font-size: $title-font-size-m;
+  line-height: $title-line-height;
+  color: $color-light;
+  font-weight: $title-font-weight-normal;
+  letter-spacing: $title-font-letter-spacing;
+
+}
+
+
+/*clases tamaño (para usar si queremos aumentar el tamaño de algún estilo no definido)*/
+.medium { font-size: 25px; }
+.big { font-size: 35px; }
+.bigger { font-size: 45px; }
+
+
+/*clases para alinear el texto*/
+.txt-center { text-align: center; }
+.txt-left { text-align: left; }
+.txt-right { text-align: right; }
+
+/*clases para cursivas*/
+.italic  { font-style: italic; }
+.bold  { font-weight: bolder; }
+
+/*clase para mayusuculas*/
+.uppercase { text-transform: uppercase; }

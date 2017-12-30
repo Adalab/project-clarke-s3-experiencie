@@ -1,0 +1,10 @@
+
+.contador{
+  margin-top: 10%;
+  margin-left: 8%;
+  background: $color-primary;
+  font-family: $body-font-family;
+  @media (max-width: 500px){
+  font-size: $title-font-size-xl;
+  }
+}

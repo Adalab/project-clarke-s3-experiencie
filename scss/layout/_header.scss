@@ -1,0 +1,11 @@
+header{
+  @include burguer();
+}
+
+.logo-into-header{
+  height: $head-bottom-height-xl;
+  @media (max-width: 500px){
+  height: $head-bottom-height-m;
+  width: $logo-header-width-m;
+  }
+}
