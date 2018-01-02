@@ -1,5 +1,87 @@
+@charset "UTF-8";/*variables tipografias BODY*//*variables tipografias TITULARES*//*texto general-cuerpo de texto*/body {
+  font-family: "Crimson Text", serif;
+  color: #444;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}/*cuerpo de texto blanco*/.font-body-light {
+  font-family: "Crimson Text", serif;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.font-captation-light {
+  font-family: "Crimson Text", serif;
+  color: white;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: italic;
+}/*clases para titulos cabecera en blanco*/.font-title-hero-light {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 90px;
+  line-height: 1.5;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 10px;
+}/*clases para titulos cabecera en verde*/.font-title-hero-primary {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 90px;
+  line-height: 1.5;
+  color: #6fb52b;
+  font-weight: 600;
+  letter-spacing: 10px;
+}/*clases para titulos de secciones internas: testimonios etc*/.font-title-section-light {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 150px;
+  line-height: 1.5;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.font-nav-light {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 10px;
+}/*clases tamaño (para usar si queremos aumentar el tamaño de algún estilo no definido)*/.medium {
+  font-size: 25px;
+}
+
+.big {
+  font-size: 35px;
+}
+
+.bigger {
+  font-size: 45px;
+}/*clases para alinear el texto*/.txt-center {
+  text-align: center;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}/*clases para cursivas*/.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bolder;
+}/*clase para mayusuculas*/.uppercase {
+  text-transform: uppercase;
+}
+
 body {
-  background-color: red;
+  background-color: #444;
 }
 
 /*# sourceMappingURL=main.css.map */
