@@ -18,8 +18,9 @@ nav {
 .hamburguer {
   width: 28px;
   height: 30px;
-  margin: 30px auto 30px;
+  margin: -30px auto 30px;
   margin-right: 15px;
+  display: block;
 }
 
 .hamburguer span:after,.hamburguer span:before {
