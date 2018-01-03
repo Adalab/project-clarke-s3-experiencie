@@ -11,10 +11,17 @@
 @import "components/typography";
 @import "components/forms";
 
-@import "pages/about-us";
-@import "pages/contact";
 @import "pages/home";
+@import "pages/what";
+@import "pages/who";
+@import "pages/why";
+
+
+* {
+box-sizing: border-box;
+}
 
 body {
-background-color: $color-midTone-dark;
+background-color: white; //---cambiar este color antes de seguir
+margin: 0;
 }
