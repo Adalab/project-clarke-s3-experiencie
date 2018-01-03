@@ -3,7 +3,7 @@ border: 3px solid $color-primary;
 background-color: $color-light;
 color:$color-midTone-dark;
 grid-column-start: 2;
-padding: 20px;
+padding: 0px;
 // align-items: center;
 display: inline-block;
 }
@@ -19,7 +19,20 @@ grid-column-start: 9;
 }
 .dotted{
 border: 1px dotted $color-midTone-dark;
+margin:0;
+width: 100%;
+margin:0;
+padding: 0;
 }
 .hidden {
 display: none;
 }
+.panel-heading{
+margin: 20px;
+}
+.container-fluid {
+line-height: 0.2;
+}
+// .flecha-abajo {
+// align-self: center;
+// }
