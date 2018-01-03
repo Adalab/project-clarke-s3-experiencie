@@ -1,4 +1,21 @@
-@charset "UTF-8";/*variables tipografias BODY*//*variables tipografias TITULARES*//*texto general-cuerpo de texto*/body {
+@charset "UTF-8";/*variables tipografias BODY*//*variables tipografias TITULARES*/body {
+  background-image: url("images/cie-1024x682BN.jpg");
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero-home-box {
+  border: 3px solid #6fb52b;
+  margin: 20px;
+}
+
+.hero-section {
+  background-image: url("images/cie-1024x682BN.jpg");
+  background-size: cover;
+  height: 180px;
+}/*texto general-cuerpo de texto*/body {
   font-family: "Crimson Text", serif;
   color: #444;
   font-size: 16px;
@@ -78,10 +95,6 @@
   font-weight: bolder;
 }/*clase para mayusuculas*/.uppercase {
   text-transform: uppercase;
-}
-
-body {
-  background-color: #444;
 }
 
 /*# sourceMappingURL=main.css.map */

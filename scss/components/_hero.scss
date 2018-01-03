@@ -1,0 +1,18 @@
+body {
+background-image: url('images/cie-1024x682BN.jpg');
+background-size: cover;
+height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.hero-home-box {
+  border: 3px solid $color-primary;
+  margin: 20px;
+}
+
+.hero-section {
+  background-image: url('images/cie-1024x682BN.jpg');
+  background-size: cover;
+  height: 180px;
+}
