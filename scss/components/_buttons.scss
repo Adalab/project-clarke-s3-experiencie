@@ -1,0 +1,34 @@
+.buttons{
+  margin-top: $marginTopButtons;
+  margin-left: $marginLeftButtons;
+  margin-right: $marginRightButtons;
+  border: 2px solid $color-primary;
+  background: none;
+//  text-transform: uppercase; //ponlo como clase
+}
+
+hr{
+  @include buttonsLine();
+}
+
+// .larger-text{
+// font-family: $title-font-family; //ponlo en tipografia
+// font-size: $title-font-size-xl; //no es el definitivo, lo he puesto solo apra poner el media queries
+// color: $color-light;
+// //text-align: center; //ponlo como clase
+//
+//   @media (max-width: 500px){
+//     margin-left: $marginLeftButtonsTextXS;
+//   font-size: $title-font-size-m-l;
+//   }
+//   }
+//
+// .smaller-text{
+//   font-family: $title-font-family; //ponlo en tipografia
+// font-size: $title-font-size-l; //no es el definitivo, lo he puesto solo apra poner el media queries
+// color: $color-light;
+// //text-align: center; //ponlo como clase
+//   @media (max-width: 500px){
+//   font-size: $title-font-size-xs;
+//   }
+//   }

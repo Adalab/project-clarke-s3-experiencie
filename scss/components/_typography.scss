@@ -64,7 +64,30 @@ body {
   color: $color-light;
   font-weight: $title-font-weight-normal;
   letter-spacing: $title-font-letter-spacing;
+}
 
+
+//tipografia de los buttones, añadido con buttons-components
+
+.button-type-title{
+  font-family: $title-font-family;
+  font-size: $title-font-size-xl; //no es el definitivo, lo he puesto solo apra poner el media queries
+  color: $color-light;
+  //text-align: center; //ponlo como clase
+  @media (max-width: 500px){
+    margin-left: $marginLeftButtonsTextXS;
+    font-size: $title-font-size-m-l;
+  }
+}
+
+.button-type-smaller-text{
+  font-family: $title-font-family;
+  font-size: $title-font-size-l; //no es el definitivo, lo he puesto solo apra poner el media queries
+  color: $color-light;
+  //text-align: center; //ponlo como clase
+  @media (max-width: 500px){
+    font-size: $title-font-size-xs;
+  }
 }
 
 

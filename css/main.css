@@ -1,4 +1,16 @@
-@charset "UTF-8";/*variables tipografias BODY*//*variables tipografias TITULARES*//*texto general-cuerpo de texto*/body {
+@charset "UTF-8";/*variables tipografias BODY*//*variables tipografias TITULARES*//*margenes buttones*//*añadidos en rama buttons-components*//*añadido en buttons-components*/.buttons {
+  margin-top: 10%;
+  margin-left: 9%;
+  margin-right: 5%;
+  border: 2px solid #6fb52b;
+  background: none;
+}
+
+hr {
+  border: #6fb52b;
+  border-style: inset;
+  border-width: 1px;
+}/*texto general-cuerpo de texto*/body {
   font-family: "Crimson Text", serif;
   color: #444;
   font-size: 16px;
@@ -50,6 +62,18 @@
   color: white;
   font-weight: 400;
   letter-spacing: 10px;
+}
+
+.button-type-title {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 90px;
+  color: white;
+}
+
+.button-type-smaller-text {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 50px;
+  color: white;
 }/*clases tamaño (para usar si queremos aumentar el tamaño de algún estilo no definido)*/.medium {
   font-size: 25px;
 }
@@ -82,6 +106,17 @@
 
 body {
   background-color: #444;
+}
+
+@media (max-width: 500px) {
+  .button-type-title {
+    margin-left: -12%;
+    font-size: 25px;
+  }
+
+  .button-type-smaller-text {
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
