@@ -1,0 +1,25 @@
+.panel {
+border: 3px solid $color-primary;
+background-color: $color-light;
+color:$color-midTone-dark;
+grid-column-start: 2;
+padding: 20px;
+// align-items: center;
+display: inline-block;
+}
+.panel-title{
+grid-column-start: 3;
+margin: 0;
+}
+.x-verde {
+grid-column-start: 2;
+}
+.flecha-abajo {
+grid-column-start: 9;
+}
+.dotted{
+border: 1px dotted $color-midTone-dark;
+}
+.hidden {
+display: none;
+}

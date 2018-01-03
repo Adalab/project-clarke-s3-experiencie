@@ -10,10 +10,12 @@
 @import "components/hero";
 @import "components/typography";
 @import "components/forms";
+@import "components/whiteboxes";
 
-@import "pages/about-us";
-@import "pages/contact";
+// @import "pages/about-us";
+// @import "pages/contact";
 @import "pages/home";
+
 
 body {
 background-color: $color-midTone-dark;
