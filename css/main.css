@@ -80,6 +80,14 @@
   text-transform: uppercase;
 }
 
+.container-counter {
+  background-color: #6fb52b;
+}
+
+.cie-counter {
+  color: white;
+}
+
 body {
   background-color: #444;
 }
