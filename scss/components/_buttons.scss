@@ -4,31 +4,31 @@
   margin-right: $marginRightButtons;
   border: 2px solid $color-primary;
   background: none;
-//  text-transform: uppercase; //ponlo como clase
+  cursor: pointer;
 }
 
 hr{
   @include buttonsLine();
 }
 
-// .larger-text{
-// font-family: $title-font-family; //ponlo en tipografia
-// font-size: $title-font-size-xl; //no es el definitivo, lo he puesto solo apra poner el media queries
-// color: $color-light;
-// //text-align: center; //ponlo como clase
-//
-//   @media (max-width: 500px){
-//     margin-left: $marginLeftButtonsTextXS;
-//   font-size: $title-font-size-m-l;
-//   }
-//   }
-//
-// .smaller-text{
-//   font-family: $title-font-family; //ponlo en tipografia
-// font-size: $title-font-size-l; //no es el definitivo, lo he puesto solo apra poner el media queries
-// color: $color-light;
-// //text-align: center; //ponlo como clase
-//   @media (max-width: 500px){
-//   font-size: $title-font-size-xs;
-//   }
-//   }
+.buttons-next-section-container{
+  background: $color-primary;
+  height: $buttonNextSectionHeight;
+  margin-left: $marginLeftButtonsNextSection;
+  margin-right: $marginRightButtonsNextSection;
+  margin-top: $marginTopButtonsNextSection;
+}
+
+.buttons-next-section{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 20%;
+  cursor: pointer;
+}
+
+.void{
+  background: none;
+}
