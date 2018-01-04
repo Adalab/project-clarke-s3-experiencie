@@ -1,8 +1,10 @@
 .hamburguer {
   width: 28px;
   height: 30px;
-  margin: -30px auto 30px;
-  margin-right: 15px;
+  margin-top: 25px;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
   display:block;
 }
 
@@ -25,11 +27,11 @@
 .hamburguer span:after,
 .hamburguer span:before {
   width: 100%;
-  height: 5px;
+  height: 3px;
   background-color: $color-light;
   transition: all 0.3s;
   backface-visibility: hidden;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 /* on activation */
