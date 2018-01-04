@@ -12,18 +12,15 @@
   width: 150%;
 }
 
-.nav {
-  border: 3px solid #6fb52b;
-}
-
 .nav-link {
   text-align: center;
   font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.5;
   color: white;
   font-weight: 400;
   background-color: #444;
+  border-bottom: 3px solid #6fb52b;
 }
 
 .hidden {

@@ -13,18 +13,15 @@
   width: 150%;
 }
 
-.nav {
-  border: 3px solid $color-primary;
-}
-
 .nav-link {
   text-align: center;
   font-family: $title-font-family;
-  font-size: $body-font-size-xs;
+  font-size: $body-font-size-s;
   line-height: $title-line-height;
   color: $color-light;
   font-weight: $title-font-weight-normal;
   background-color: $color-midTone-dark;
+  border-bottom: 3px solid $color-primary;
 }
 
 .hidden {
