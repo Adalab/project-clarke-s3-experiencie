@@ -1,18 +1,46 @@
-body {
-background-image: url('images/cie-1024x682BN.jpg');
-background-size: cover;
-height: 100%;
-background-repeat: no-repeat;
-background-attachment: fixed;
-}
 
 .hero-home-box {
-  border: 3px solid $color-primary;
+  border: 3px solid #6fb52b;
+  border-bottom-style: none;
   margin: 20px;
+  padding: 10px;
+  height: 13.3em;
+}
+
+.carousel-indicators {
+  z-index: 15;
+  display: flex;
+  justify-content: flex-end;
+  top: 262px;
+  flex-grow: 1;
+}
+
+.linear-gradient {
+  background: linear-gradient(to left, $color-primary, $color-primary);
+  background-position: top left 40px;
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  height: 3px;
+  margin: -20px;
+  width: 75%;
+}
+
+.carousel-indicators li {
+  position: relative;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 5px;
+  border-radius: 100%;
+  height: 5px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  /* bottom: -40px; */
+  background-color: rgba(255,255,255,.5);
 }
 
 .hero-section {
-  background-image: url('images/cie-1024x682BN.jpg');
+  background-image: url('../images/cie-1024x682BN.jpg');
   background-size: cover;
   height: 180px;
 }

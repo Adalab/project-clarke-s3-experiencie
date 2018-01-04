@@ -29,7 +29,7 @@ body {
 /*clases para titulos cabecera en blanco*/
 .font-title-hero-light {
   font-family: $title-font-family;
-  font-size: $title-font-size-xl;
+  font-size: $title-font-size-m;
   line-height: $title-line-height;
   color: $color-light;
   font-weight: $title-font-weight-bold;
@@ -39,7 +39,7 @@ body {
 /*clases para titulos cabecera en verde*/
 .font-title-hero-primary {
   font-family: $title-font-family;
-  font-size: $title-font-size-xl;
+  font-size: $title-font-size-m;
   line-height: $title-line-height;
   color: $color-primary;
   font-weight: $title-font-weight-bold;
@@ -66,11 +66,20 @@ body {
   letter-spacing: $title-font-letter-spacing;
 }
 
+.font-nav-primary {
+  font-family: $title-font-family;
+  font-size: $title-font-size-m;
+  line-height: $title-line-height;
+  color: $color-primary;
+  font-weight: $title-font-weight-normal;
+  letter-spacing: $title-font-letter-spacing;
+}
 
 /*clases tamaño (para usar si queremos aumentar el tamaño de algún estilo no definido)*/
 .medium { font-size: 25px; }
 .big { font-size: 35px; }
 .bigger { font-size: 45px; }
+.extrabigger { font-size: 90px; }
 
 
 /*clases para alinear el texto*/
