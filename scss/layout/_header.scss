@@ -14,16 +14,19 @@
 }
 
 .nav {
-  border: 1px solid red;
-  background-color: $color-midTone-dark;
+  border: 3px solid $color-primary;
 }
 
-.nav-link{
-  text-align: right;
+.nav-link {
+  text-align: center;
   font-family: $title-font-family;
-  font-size: $title-font-size-m;
+  font-size: $body-font-size-xs;
   line-height: $title-line-height;
   color: $color-light;
   font-weight: $title-font-weight-normal;
-  letter-spacing: $title-font-letter-spacing;
+  background-color: $color-midTone-dark;
+}
+
+.hidden {
+  display:none;
 }

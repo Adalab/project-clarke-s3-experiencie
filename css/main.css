@@ -13,27 +13,26 @@
 }
 
 .nav {
-  border: 1px solid red;
-  background-color: #444;
+  border: 3px solid #6fb52b;
 }
 
 .nav-link {
-  text-align: right;
+  text-align: center;
   font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 20px;
+  font-size: 12px;
   line-height: 1.5;
   color: white;
   font-weight: 400;
-  letter-spacing: 10px;
+  background-color: #444;
+}
+
+.hidden {
+  display: none;
 }
 
 div.no-padding {
   padding-right: 0px;
   padding-left: 0px;
-}
-
-div.col-auto {
-  padding: 0px;
 }
 
 .hamburguer {
