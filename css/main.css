@@ -12,7 +12,22 @@
   width: 150%;
 }
 
-div.container-fluid-header {
+.nav {
+  border: 1px solid red;
+  background-color: #444;
+}
+
+.nav-link {
+  text-align: right;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 10px;
+}
+
+div.no-padding {
   padding-right: 0px;
   padding-left: 0px;
 }
