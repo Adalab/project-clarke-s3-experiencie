@@ -46,6 +46,15 @@ body {
   letter-spacing: $title-font-letter-spacing;
 }
 
+/*clase para CIE carrusel*/
+.font-title-hero-primary-xl {
+  font-family: $title-font-family;
+  font-size: $title-font-size-xxl;
+  line-height: $title-line-height-xs;
+  color: $color-primary;
+  font-weight: $title-font-weight-bold;
+}
+
 /*clases para titulos de secciones internas: testimonios etc*/
 .font-title-section-light {
   font-family: $title-font-family;

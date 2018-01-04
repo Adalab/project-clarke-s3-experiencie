@@ -46,6 +46,13 @@
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+.underline {
+  border: 0.1em solid #6fb52b;
+  width: 20%;
+  margin-left: 208px;
+  margin-top: 30px;
+}
+
 .hero-section {
   background-image: url("../images/cie-1024x682BN.jpg");
   background-size: cover;
@@ -85,6 +92,12 @@
   color: #6fb52b;
   font-weight: 600;
   letter-spacing: 10px;
+}/*clase para CIE carrusel*/.font-title-hero-primary-xl {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 150px;
+  line-height: 0.7;
+  color: #6fb52b;
+  font-weight: 600;
 }/*clases para titulos de secciones internas: testimonios etc*/.font-title-section-light {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 150px;
