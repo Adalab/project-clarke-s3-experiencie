@@ -4,33 +4,23 @@
   border-bottom-style: none;
   margin: 20px;
   padding: 10px;
-  height: 13.3em;
-}
-
-.carousel {
-  width: 225px;
+  height: 100%;
 }
 
 .carousel-indicators {
   justify-content: flex-end;
-  top: 232px;
+  top: 228px;
   flex-grow: 1;
   margin-right: 0;
   margin-left: 0;
+
+  @media (min-width: 768px) {
+    top: 672px;
+  }
 }
 
 ol {
   margin-top: -32px;
-}
-
-.linear-gradient {
-  background: linear-gradient(to left, $color-primary, $color-primary);
-  background-position: top left 40px;
-  padding-left: 20px;
-  background-repeat: no-repeat;
-  height: 3px;
-  margin: -20px;
-  width: 75%;
 }
 
 .carousel-indicators li {
@@ -40,17 +30,45 @@ ol {
   margin-right: 3px;
   margin-left: 3px;
   background-color: rgba(255,255,255,.5);
+
+  @media (min-width: 768px) {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.linear-gradient-long {
+  background: linear-gradient(to left, $color-primary, $color-primary);
+  background-position: top left 55px;
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  height: 3px;
+  margin: -20px;
+  width: 75%;
+}
+
+.linear-margin {
+  margin:0 20px;
+}
+
+.linear-gradient-short {
+  background: linear-gradient(to right, $color-primary, $color-primary);
+  background-repeat: no-repeat;
+  height: 3px;
+  width: 25%;
 }
 
 .underline {
   border: 0.1em solid #6fb52b;
   width: 20%;
-  margin-left: 208px;
-  margin-top: 30px;
 }
 
-.hero-section {
+.background-section-image {
   background-image: url('../images/cie-1024x682BN.jpg');
   background-size: cover;
   height: 180px;
+}
+
+.hero-section {
+  padding: 20px 0px;
 }
