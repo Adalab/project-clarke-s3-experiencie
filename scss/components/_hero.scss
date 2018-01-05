@@ -5,6 +5,10 @@
   margin: 20px;
   padding: 10px;
   height: 100%;
+
+  @media (min-width: 768px) {
+    padding-left: 20px;
+  }
 }
 
 .carousel-indicators {
@@ -15,7 +19,11 @@
   margin-left: 0;
 
   @media (min-width: 768px) {
-    top: 672px;
+    top: 418px;
+    margin-right: 10px;
+  }
+  @media (min-width: 1024px) {
+    margin-right: 40px;
   }
 }
 
@@ -34,6 +42,10 @@ ol {
   @media (min-width: 768px) {
     width: 10px;
     height: 10px;
+  }
+  @media (min-width: 1024px) {
+    margin-right: 6px;
+    margin-left: 6px;
   }
 }
 
@@ -56,6 +68,7 @@ ol {
   background-repeat: no-repeat;
   height: 3px;
   width: 25%;
+
 }
 
 .underline {

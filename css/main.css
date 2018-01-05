@@ -184,8 +184,13 @@ ol {
 }
 
 @media (min-width: 768px) {
+  .hero-home-box {
+    padding-left: 20px;
+  }
+
   .carousel-indicators {
-    top: 672px;
+    top: 418px;
+    margin-right: 10px;
   }
 
   .carousel-indicators li {
@@ -194,7 +199,7 @@ ol {
   }
 
   .font-title-hero-light {
-    font-size: 5em;
+    font-size: 3em;
     line-height: 1.3;
   }
 
@@ -204,8 +209,19 @@ ol {
   }
 
   .font-title-hero-primary-xl {
-    font-size: 6.4em;
+    font-size: 6.35em;
     line-height: 0.755;
+  }
+}
+
+@media (min-width: 1024px) {
+  .carousel-indicators {
+    margin-right: 40px;
+  }
+
+  .carousel-indicators li {
+    margin-right: 6px;
+    margin-left: 6px;
   }
 }
 
