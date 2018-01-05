@@ -208,6 +208,18 @@ ol {
     font-size: 6.35em;
     line-height: 0.755;
   }
+
+  .font-nav-light {
+    font-size: 35px;
+  }
+
+  .font-nav-primary {
+    font-size: 35px;
+  }
+
+  .background-section-image {
+    height: 380px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -218,6 +230,18 @@ ol {
   .carousel-indicators li {
     margin-right: 6px;
     margin-left: 6px;
+  }
+
+  .font-nav-light {
+    font-size: 50px;
+  }
+
+  .font-nav-primary {
+    font-size: 50px;
+  }
+
+  .background-section-image {
+    height: 480px;
   }
 }
 

@@ -89,6 +89,13 @@ body {
   color: $color-light;
   font-weight: $title-font-weight-normal;
   letter-spacing: $title-font-letter-spacing;
+
+  @media (min-width: 768px) {
+    font-size: $title-font-size-md;
+  }
+  @media (min-width: 1024px) {
+    font-size: $title-font-size-l;
+  }
 }
 
 .font-nav-primary {
@@ -98,6 +105,13 @@ body {
   color: $color-primary;
   font-weight: $title-font-weight-normal;
   letter-spacing: $title-font-letter-spacing;
+
+  @media (min-width: 768px) {
+    font-size: $title-font-size-md;
+  }
+  @media (min-width: 1024px) {
+    font-size: $title-font-size-l;
+  }
 }
 
 /*clases tamaño (para usar si queremos aumentar el tamaño de algún estilo no definido)*/
