@@ -2,21 +2,23 @@
 border: 3px solid $color-primary;
 background-color: $color-light;
 color:$color-midTone-dark;
-grid-column-start: 2;
+// grid-column-start: 2;
 padding: 0px;
 // align-items: center;
 display: inline-block;
 }
 .panel-title{
-grid-column-start: 3;
+// grid-column-start: 3;
 margin: 0;
+align-content: center;
+
 }
 .x-verde {
-grid-column-start: 2;
+width:100%;
 }
-.flecha-abajo {
-grid-column-start: 9;
-}
+// .flecha-abajo {
+// grid-column-start: 9;
+// }
 .dotted{
 border: 1px dotted $color-midTone-dark;
 margin:0;
@@ -29,9 +31,10 @@ display: none;
 }
 .panel-heading{
 margin: 20px;
+align-content: center;
 }
 .container-fluid {
-line-height: 0.2;
+line-height: 0.5;
 }
 // .flecha-abajo {
 // align-self: center;
