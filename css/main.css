@@ -120,6 +120,11 @@
   line-height: 0.5;
 }
 
+.stories {
+  padding: 2rem;
+  line-height: 1.4;
+}
+
 body {
   background-color: #444;
 }
