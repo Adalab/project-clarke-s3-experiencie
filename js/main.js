@@ -1,13 +1,9 @@
-'use strict';
-
-
-var counterParagrapHidden = document.querySelector('.paragraph-counter');
-
+'use strict'
 
 var counter = 0;
 var time = document.querySelector('.cie-counter');
 var total = 7597;
-var temp = setInterval(incrementCounter, 10);
+var temp = setInterval(incrementCounter, 20);
 
 function incrementCounter(){
   if(counter < 7500) {
@@ -18,6 +14,21 @@ function incrementCounter(){
     time.innerHTML = counter;
   } else {
     clearInterval(temp);
-    counterParagrapHidden.classList.remove('hidden-xs');
   }
+}
+
+
+var text = "Personas que en 2016 fueron encerradas en un Centro de Internamiento de Extranjeros";
+var steps = 80;
+var i=0;
+var message= text.split('');
+var paragraphCounter= document.querySelector ('.paragraph-counter');
+var writeMachine = setInterval(showMessage,80);
+
+function showMessage (){
+  if(i <= message.length-1){
+    paragraphCounter.innerHTML+=message[i];
+    i++;
+    clearInterval(showMessage);
+  }  
 }
