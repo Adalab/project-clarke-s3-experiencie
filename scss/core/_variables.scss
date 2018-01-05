@@ -28,12 +28,15 @@ $title-font-family: 'Barlow Semi Condensed', sans-serif;
 $title-font-size-xs: 12px;
 $title-font-size-s: 16px;
 $title-font-size-m: 20px;
+$title-font-size-md: 35px;
 $title-font-size-l: 50px;
 $title-font-size-xl: 90px;
 $title-font-size-xxl: 150px;
 
 
 $title-line-height: 1.5;
+$title-line-height-s: 1;
+$title-line-height-xs: 0.7;
 
 $title-font-color-primary: $color-primary;
 $title-font-color-dark: $color-midTone-dark;
@@ -43,4 +46,4 @@ $title-font-weight-normal: 400;
 $title-font-weight-bold: 600;
 $title-font-weight-bolder: 800;
 
-$title-font-letter-spacing: 10px;
+$title-font-letter-spacing: 5px;
