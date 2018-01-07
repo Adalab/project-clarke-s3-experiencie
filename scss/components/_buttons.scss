@@ -5,6 +5,11 @@
   border: 2px solid $color-primary;
   background: none;
   cursor: pointer;
+  &:hover{
+  transform: scale(1.2);
+  border-width: 5px;
+  transition: transform 1s ease;
+  }
 }
 
 hr{
@@ -27,6 +32,11 @@ hr{
   justify-content: flex-end;
   padding-left: 20%;
   cursor: pointer;
+  &:hover{
+    animation-name: buttonNextSecAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+  }
 }
 
 .void{

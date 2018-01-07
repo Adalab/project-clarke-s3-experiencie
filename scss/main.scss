@@ -2,6 +2,7 @@
 @import "core/variables";
 @import "core/mixins";
 @import "core/settings";  /*añadido en buttons-components*/
+@import "core/animations-buttons";/*añadido en buttons-components*/
 
 @import "layout/header";
 @import "layout/footer";
@@ -11,6 +12,7 @@
 @import "components/hero";
 @import "components/typography";
 @import "components/forms";
+
 
 // @import "pages/about-us";
 // @import "pages/contact";
