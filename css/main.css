@@ -105,6 +105,13 @@ ol {
   line-height: 0.7;
   color: #6fb52b;
   font-weight: 600;
+}
+
+.font-title-counter-light {
+  font-family: "Crimson Text", serif;
+  font-size: 130px;
+  line-height: 1;
+  color: white;
 }/*clases para titulos de secciones internas: testimonios etc*/.font-title-section-light {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 150px;
@@ -166,12 +173,13 @@ ol {
 }
 
 .container-counter {
-  background-color: #6fb52b;
+  margin-top: 20px;
+  border-bottom: 20px solid #6fb52b;
 }
 
-.cie-counter {
-  color: white;
-  font-family: "Crimson Text", serif;
+.paragraph-counter {
+  margin-bottom: 2.5rem;
+  padding: 0 20px;
 }
 
 .background-page-image {

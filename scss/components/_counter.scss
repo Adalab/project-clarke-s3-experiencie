@@ -1,8 +1,9 @@
-.container-counter{
-  background-color: $color-primary;
-
+.container-counter {
+  margin-top: 20px;
+  border-bottom: 20px solid $color-primary;
 }
-.cie-counter{
-  color: $color-light;
-  font-family: $body-font-family;
-  }
+
+.paragraph-counter {
+  margin-bottom: 2.5rem;
+  padding: 0 20px;
+}

@@ -3,7 +3,7 @@
 var counter = 0;
 var time = document.querySelector('.cie-counter');
 var total = 7597;
-var temp = setInterval(incrementCounter, 20);
+var temp = setInterval(incrementCounter, 90);
 
 function incrementCounter(){
   if(counter < 7500) {
@@ -30,9 +30,8 @@ function showMessage (){
     paragraphCounter.innerHTML+=message[i];
     i++;
     clearInterval(showMessage);
-  }  
+  }
 }
 
 
-.carousel('pause')
-
+carousel('pause')
