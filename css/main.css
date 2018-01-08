@@ -165,6 +165,15 @@ ol {
   text-transform: uppercase;
 }
 
+.container-counter {
+  background-color: #6fb52b;
+}
+
+.cie-counter {
+  color: white;
+  font-family: "Crimson Text", serif;
+}
+
 .background-page-image {
   background-image: url("../images/cie-1024x682BN.jpg");
   background-size: cover;
