@@ -26,7 +26,7 @@ var paragraphCounter= document.querySelector ('.paragraph-counter');
 var writeMachine = setInterval(showMessage,80);
 
 function showMessage (){
-  if(i <= message.length-1){
+  if(i < message.length){
     paragraphCounter.innerHTML+=message[i];
     i++;
     clearInterval(showMessage);
