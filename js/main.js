@@ -32,3 +32,7 @@ function showMessage (){
     clearInterval(showMessage);
   }  
 }
+
+
+.carousel('pause')
+
