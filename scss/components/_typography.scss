@@ -71,12 +71,7 @@ body {
   }
 }
 
-.font-title-counter-light {
-  font-family: $body-font-family;
-  font-size: $title-font-size-counter;
-  line-height: $title-line-height-s;
-  color: $color-light;
-}
+
 
 /*clases para titulos de secciones internas: testimonios etc*/
 .font-title-section-light {
@@ -118,6 +113,27 @@ body {
   }
   @media (min-width: 1024px) {
     font-size: $title-font-size-l;
+  }
+}
+
+//Clase para CIE COUNTER
+
+.font-title-counter-light {
+  font-family: $body-font-family;
+  font-size: $title-font-size-counter;
+  line-height: $title-line-height-s;
+  color: $color-light;
+}
+
+.font-text-counter {
+  font-family: $body-font-family;
+  color: $body-font-color-light;
+  font-size: $body-font-size-s;
+  line-height: $body-line-height;
+  font-weight: $body-font-weight-normal;
+
+  @media (min-width: 768px) {
+    font-size: $body-font-size-xl;
   }
 }
 
