@@ -8,13 +8,21 @@
   padding-bottom: 24px;
 }
 
+.margin-negative {
+  margin-top: -15px;
+}
+
+.margin-right-negative {
+  margin-right: -30px;
+}
+
+.position-fixed {
+  position: fixed;
+  top: 0;
+}
 
 .logo {
   width: 150%;
-}
-
-.row-nav {
-
 }
 
 .nav-link {
@@ -26,6 +34,10 @@
   font-weight: $title-font-weight-normal;
   background-color: $color-midTone-dark;
   border-bottom: 3px solid $color-primary;
+}
+
+.list-group-item:first-child {
+  border-radius: 0px;
 }
 
 .hidden {
