@@ -50,6 +50,23 @@
   color: white;
   font-weight: 400;
   letter-spacing: 10px;
+}
+
+.font-title-section-dark {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #444;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.font-nav-dark {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444;
+  font-weight: 400;
 }/*clases tamaño (para usar si queremos aumentar el tamaño de algún estilo no definido)*/.medium {
   font-size: 25px;
 }
@@ -95,7 +112,8 @@
 }
 
 .x-verde {
-  width: 100%;
+  width: 60px;
+  height: 60px;
 }
 
 .dotted {
@@ -118,11 +136,19 @@
 
 .container-fluid {
   line-height: 0.5;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .stories {
   padding: 2rem;
   line-height: 1.4;
+}
+
+.padding-section {
+  padding: 15px;
 }
 
 body {

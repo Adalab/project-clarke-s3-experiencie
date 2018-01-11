@@ -67,6 +67,26 @@ body {
 
 }
 
+.font-title-section-dark {
+  font-family: $title-font-family;
+  font-size: $title-font-size-m;
+  line-height: $title-line-height;
+  color: $title-font-color-dark;
+  font-weight: $title-font-weight-bold;
+  text-align:justify;
+}
+
+.font-nav-dark {
+  font-family: $title-font-family;
+  font-size: $title-font-size-s;
+  line-height: $title-line-height;
+  color: $title-font-color-dark;
+  font-weight: $title-font-weight-normal;
+
+
+}
+
+
 
 /*clases tamaño (para usar si queremos aumentar el tamaño de algún estilo no definido)*/
 .medium { font-size: 25px; }
