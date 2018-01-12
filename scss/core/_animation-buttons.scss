@@ -1,0 +1,10 @@
+@keyframes buttonNextSecRightAnimation {
+  from{transform: translateX(-20px);}
+  to{transform: translateX(0px);}
+}
+
+
+@keyframes buttonNextSecLeftAnimation {
+  from{transform: translateX(20px);}
+  to{transform: translateX(0px);}
+}
