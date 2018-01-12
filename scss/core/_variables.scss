@@ -27,7 +27,11 @@ $title-font-family: 'Barlow Semi Condensed', sans-serif;
 
 $title-font-size-xs: 12px;
 $title-font-size-s: 16px;
+$title-font-size-sm: 18px; //añadido en master-con-4buttons
 $title-font-size-m: 20px;
+$title-font-size-ml: 22px; //añadido en master-con-4buttons
+$title-font-size-m-l: 25px; //añadido en buttons-components
+$title-font-size-mdl: 30px; //añadido en buttons-components
 $title-font-size-md: 35px;
 $title-font-size-l: 50px;
 $title-font-size-xl: 90px;
@@ -48,3 +52,12 @@ $title-font-weight-bold: 600;
 $title-font-weight-bolder: 800;
 
 $title-font-letter-spacing: 5px;
+
+
+/*margenes buttones*/ /*añadidos en rama buttons-components*/
+$paddingTopRowButtons: 15px;
+$paddingLeftRowButtons: 15px;
+$paddingRightRowButtons: 15px;
+$paddingBottomRowButtons: 15px;
+$paddingBottomRowButtonsNextSection: 10px;
+$buttonNextSectionHeight: 120px;
