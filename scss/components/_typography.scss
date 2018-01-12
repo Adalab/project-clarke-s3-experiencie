@@ -69,22 +69,33 @@ body {
 }
 
 .font-title-section-dark {
-  font-family: $title-font-family;
+  font-family: $body-font-family;
   font-size: $title-font-size-m;
   line-height: $title-line-height;
   color: $title-font-color-dark;
-  font-weight: $title-font-weight-bold;
+  font-weight: $title-font-weight-normal;
   text-align:justify;
-  font-style: italic;
+
+@media all and (min-width: 768px){
+font-size: $body-font-size-xl;
+}
+@media all and (min-width: 1024px){
+font-size: $title-font-size-l;
+}
 }
 
 .font-nav-dark {
-  font-family: $title-font-family;
-  font-size: $title-font-size-s;
+  font-family:$body-font-family;
+  font-size: $body-font-size-xs;
   line-height: $title-line-height;
-  color: $title-font-color-dark;
+  color: $body-font-color-dark;
   font-weight: $title-font-weight-normal;
-
+  @media all and (min-width: 768px){
+  font-size: $body-font-size-s;
+    }
+  @media all and (min-width: 1024px){
+  font-size: $body-font-size-m;
+  }
 
 }
 

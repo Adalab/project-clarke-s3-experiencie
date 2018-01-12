@@ -1,7 +1,7 @@
 'use strict';
 
 // colapsables
-var showStories = document.querySelectorAll('.flecha-abajo');
+var showStories = document.querySelector('.flecha-abajo');
 var stories = document.querySelector('.panel-body');
 
 // function toggleInput(){
@@ -31,14 +31,14 @@ var toggle = function(){
   var stories = document.querySelector('.panel-body');
   toggleInput(stories);
   };
-  document.querySelectorAll('.flecha-abajo').forEach(function (input) {
-    input.addEventListener('click', toggle);
+  document.querySelectorAll('.flecha-abajo').forEach(function (target) {
+    target.addEventListener('click', toggle);
   });
 
 
 
 
-showStories.addEventListener('click', toggleInput(input));
+showStories.addEventListener('click', toggle);
 
 
 // var toggle = function(){

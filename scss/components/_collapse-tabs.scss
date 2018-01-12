@@ -11,8 +11,13 @@ align-content: center;
 
 }
 .x-verde {
-width:60px;
-height: 60px;
+width:90%;
+height: 90%;
+
+@media all and (min-width:1024px){
+  width:100px;
+  height: 100px;
+}
 }
 
 .dotted{

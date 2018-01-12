@@ -53,18 +53,17 @@
 }
 
 .font-title-section-dark {
-  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Crimson Text", serif;
   font-size: 20px;
   line-height: 1.5;
   color: #444;
-  font-weight: 600;
+  font-weight: 400;
   text-align: justify;
-  font-style: italic;
 }
 
 .font-nav-dark {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 16px;
+  font-family: "Crimson Text", serif;
+  font-size: 12px;
   line-height: 1.5;
   color: #444;
   font-weight: 400;
@@ -154,6 +153,26 @@
 
 body {
   background-color: #444;
+}
+
+@media all and (min-width: 768px) {
+  .font-title-section-dark {
+    font-size: 30px;
+  }
+
+  .font-nav-dark {
+    font-size: 16px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .font-title-section-dark {
+    font-size: 50px;
+  }
+
+  .font-nav-dark {
+    font-size: 18px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
