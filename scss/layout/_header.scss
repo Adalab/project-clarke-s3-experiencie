@@ -12,6 +12,20 @@
   padding: 0;
 }
 
+.menu-lateral {
+  margin-top: 15px;
+  position: relative;
+  right:-100%;
+  transition: right ease-in-out 1s;
+}
+
+.animation-menu {
+  margin-top: 15px;
+  position: relative;
+  right:0;
+}
+
+
 .nav-link {
   text-align: center;
   font-family: $title-font-family;

@@ -1,4 +1,4 @@
-.hamburguer {
+.hamburguer-button {
   width: 30px;
   height: 30px;
   border: 1px solid red;
@@ -15,6 +15,8 @@ span {
   opacity: 1;
   padding-left: 1px;
   border-radius: 3px;
+  transform: rotate(0deg);
+  transition: 0.50s ease-in-out;
 }
 
 span:nth-child(1) {
@@ -27,6 +29,22 @@ span:nth-child(2) {
 
 span:nth-child(3) {
   bottom: 0;
+}
+
+
+.close span:nth-child(1) {
+  top: 45%;
+  transform: rotate(135deg);
+}
+
+.close span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.close span:nth-child(3) {
+  bottom: 33%;
+  transform: rotate(-135deg);
 }
 
 // display: block;
