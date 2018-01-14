@@ -6,22 +6,19 @@
 }
 
 .logo {
-  width: 100%;
-  padding: 15px;
-  border: 1px red solid;
-  padding: 0;
+  width: 150%;
+  margin-top: 0px;
 }
 
 .menu-lateral {
-  margin-top: 15px;
   position: relative;
   right: -100%;
+  padding-top: 10px;
   -webkit-transition: right ease-in-out 1s;
   transition: right ease-in-out 1s;
 }
 
 .animation-menu {
-  margin-top: 15px;
   position: relative;
   right: 0;
 }
@@ -34,6 +31,14 @@
   color: white;
   font-weight: 400;
   background-color: #444;
+}
+
+a:hover {
+  color: white;
+  background-color: #6fb52b;
+}
+
+.list-group-item {
   border-bottom: 3px solid #6fb52b;
 }
 
@@ -61,24 +66,33 @@ div.no-padding {
   height: 30px;
   margin-right: 15px;
   position: relative;
+  top: 0;
 }
 
 .burguer-down {
   width: 31px;
   height: 31px;
-  border: 1px solid #444;
   margin-right: 15px;
   position: relative;
   top: -200%;
   -webkit-transition: top ease-in-out 1s;
   transition: top ease-in-out 1s;
-  background-color: #444;
+  color: white;
 }
 
 .animation-burguer {
   position: relative;
   top: 0;
   background-color: #444;
+}
+
+p {
+  text-align: center;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: white;
+  font-weight: 800;
 }
 
 span {
@@ -238,6 +252,30 @@ span:nth-child(3) {
 body {
   background-color: white;
   margin: 0;
+}
+
+@media all and (min-width: 768px) {
+  .header {
+    height: 100px;
+    margin-top: 0px;
+  }
+
+  .logo {
+    width: 200%;
+    margin-top: 0px;
+  }
+
+  .nav-link {
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 10px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .nav-link {
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

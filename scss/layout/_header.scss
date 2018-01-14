@@ -3,24 +3,29 @@
   width: 100%;
   background-color: $color-midTone-dark;
   padding-right: 0px;
-}
+  @media all and (min-width:768px) {
+    height: 100px;
+    margin-top: 0px;
+  }
+  }
 
 .logo {
-  width: 100%;
-  padding: 15px;
-  border: 1px red solid;
-  padding: 0;
+  width: 150%;
+  margin-top: 0px;
+@media all and (min-width:768px) {
+  width: 200%;
+  margin-top: 0px;
+}
 }
 
 .menu-lateral {
-  margin-top: 15px;
   position: relative;
   right:-100%;
+  padding-top: 10px;
   transition: right ease-in-out 1s;
 }
 
 .animation-menu {
-  margin-top: 15px;
   position: relative;
   right:0;
 }
@@ -34,6 +39,24 @@
   color: $color-light;
   font-weight: $title-font-weight-normal;
   background-color: $color-midTone-dark;
+
+  @media all and (min-width:768px) {
+    font-size: $body-font-size-l;
+    font-weight: $body-font-weight-bold;
+    padding-right: 10px;
+  }
+
+  @media all and (min-width:1280px) {
+    font-size: $body-font-size-l;
+  }
+}
+
+a:hover {
+    color: $color-light;
+    background-color: $color-primary;
+}
+
+.list-group-item {
   border-bottom: 3px solid $color-primary;
 }
 

@@ -1,6 +1,7 @@
 'use strict';
 
 var hamburguerButton= document.querySelector('.hamburguer-button');
+var hamburguerButtonClose= document.querySelector('.hamburguer-button-close');
 var menuLateral= document.querySelector('.menu-lateral');
 var burguerDown= document.querySelector('.burguer-down');
 
