@@ -2,10 +2,12 @@
 
 var hamburguerButton= document.querySelector('.hamburguer-button');
 var menuLateral= document.querySelector('.menu-lateral');
+var burguerDown= document.querySelector('.burguer-down');
 
 function showMenu() {
   menuLateral.classList.toggle('animation-menu');
   hamburguerButton.classList.toggle('close');
+  burguerDown.classList.toggle('animation-burguer');
 }
 
 hamburguerButton.addEventListener('click', showMenu);

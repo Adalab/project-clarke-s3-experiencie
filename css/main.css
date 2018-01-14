@@ -64,15 +64,31 @@ div.no-padding {
   position: relative;
 }
 
+.burguer-down {
+  width: 30px;
+  height: 30px;
+  border: 1px solid red;
+  margin-right: 15px;
+  position: relative;
+  top: -200%;
+  -webkit-transition: top ease-in-out 1s;
+  transition: top ease-in-out 1s;
+}
+
+.animation-burguer {
+  position: relative;
+  top: 0;
+}
+
 span {
   display: block;
   position: absolute;
   background-color: white;
   width: 100%;
   height: 5px;
-  opacity: 1;
   padding-left: 1px;
   border-radius: 3px;
+  opacity: 1;
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   -webkit-transition: 0.50s ease-in-out;
@@ -93,7 +109,18 @@ span:nth-child(3) {
   bottom: 0;
 }
 
+.burguer-down span {
+  opacity: 1;
+  -webkit-transition: opacity .15s ease-in-out;
+  transition: opacity .15s ease-in-out;
+}
+
+.close,.burguer-down span {
+  opacity: 0;
+}
+
 .close span {
+  opacity: 1;
   -webkit-transform: rotate(280deg);
   transform: rotate(280deg);
 }
