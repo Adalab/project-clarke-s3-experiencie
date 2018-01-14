@@ -1,48 +1,41 @@
 .hamburguer {
-  width: 45px;
-  height: 45px;
+  width: 30px;
+  height: 30px;
   border: 1px solid red;
   margin-right: 15px;
   position: relative;
 }
 
-// .hamburguer span:after,
-// .hamburguer span:before {
-//   content: "";
-//   position: absolute;
-//   left: 0;
-//   top: -9px;
-// }
-// .hamburguer span:after{
-//   top: 9px;
-// }
-// .hamburguer span {
-//   position: relative;
-//   display: block;
-// }
-//
-// .hamburguer span,
-// .hamburguer span:after,
-// .hamburguer span:before {
-//   width: 100%;
-//   height: 3px;
-//   background-color: $color-light;
-//   transition: all 0.3s;
-//   backface-visibility: hidden;
-//   border-radius: 3px;
-// }
-//
-// /* on activation */
-// .hamburguer.on span {
-//   background-color: transparent;
-// }
-// .hamburguer.on span:before {
-//   transform: rotate(45deg) translate(5px, 5px);
-// }
-// .hamburguer.on span:after {
-//   transform: rotate(-45deg) translate(7px, -8px);
-// }
-// .hamburguer.on + #menu {
-//   opacity: 1;
-//   visibility: visible;
-// }
+span {
+  display:block;
+  position:absolute;
+  background-color: $color-light;
+  width: 100%;
+  height: 5px;
+  opacity: 1;
+  padding-left: 1px;
+  border-radius: 3px;
+}
+
+span:nth-child(1) {
+  top: 0;
+}
+
+span:nth-child(2) {
+  top: 45%;
+}
+
+span:nth-child(3) {
+  bottom: 0;
+}
+
+// display: block;
+// position: absolute;
+// height: 16.5%;
+// width: 100%;
+// background: $primary-color;
+// border-radius: 16.5%;
+// opacity: 1;
+// left: 0;
+// transform: rotate(0deg);
+// transition: 0.25s ease-in-out;
