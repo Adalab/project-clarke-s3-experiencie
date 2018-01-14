@@ -77,6 +77,8 @@ span {
   transform: rotate(0deg);
   -webkit-transition: 0.50s ease-in-out;
   transition: 0.50s ease-in-out;
+  left: 0;
+  padding: 0;
 }
 
 span:nth-child(1) {
@@ -91,21 +93,29 @@ span:nth-child(3) {
   bottom: 0;
 }
 
+.close span {
+  -webkit-transform: rotate(280deg);
+  transform: rotate(280deg);
+}
+
 .close span:nth-child(1) {
   top: 45%;
-  -webkit-transform: rotate(135deg);
-  transform: rotate(135deg);
+  left: -40%;
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
 }
 
 .close span:nth-child(2) {
-  opacity: 0;
-  left: -60px;
+  left: 0;
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
 }
 
 .close span:nth-child(3) {
-  bottom: 33%;
-  -webkit-transform: rotate(-135deg);
-  transform: rotate(-135deg);
+  top: 45%;
+  left: 40%;
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
 }
 
 .button-burguer-open {
