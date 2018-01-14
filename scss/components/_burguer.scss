@@ -7,14 +7,14 @@
 }
 
 .burguer-down {
-  width: 31px;
-  height: 31px;
+  width: 45px;
+  height: 45px;
   margin-right: 15px;
   position: relative;
   top: -200%;
   transition: top ease-in-out 1s;
-  color: white;
 }
+
 
 .animation-burguer {
   position: relative;
@@ -29,6 +29,7 @@ p {
   line-height: $title-line-height;
   color: $color-light;
   font-weight: $title-font-weight-bolder;
+  margin-right: 15px;
 }
 
 

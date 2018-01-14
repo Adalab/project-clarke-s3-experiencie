@@ -70,14 +70,13 @@ div.no-padding {
 }
 
 .burguer-down {
-  width: 31px;
-  height: 31px;
+  width: 45px;
+  height: 45px;
   margin-right: 15px;
   position: relative;
   top: -200%;
   -webkit-transition: top ease-in-out 1s;
   transition: top ease-in-out 1s;
-  color: white;
 }
 
 .animation-burguer {
@@ -93,6 +92,7 @@ p {
   line-height: 1.5;
   color: white;
   font-weight: 800;
+  margin-right: 15px;
 }
 
 span {
