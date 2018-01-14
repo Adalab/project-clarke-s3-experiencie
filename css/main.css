@@ -2,14 +2,14 @@
   height: 65px;
   width: 100%;
   background-color: #444;
-  padding-left: 15px;
-  padding-top: 10px;
-  padding-right: 30px;
-  padding-bottom: 24px;
+  padding-right: 0px;
 }
 
 .logo {
   width: 100%;
+  padding: 15px;
+  border: 1px red solid;
+  padding: 0;
 }
 
 .menu-position {
@@ -33,6 +33,16 @@
   display: none;
 }
 
+.no-margin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 div.no-padding {
   padding-right: 0px;
   padding-left: 0px;
@@ -41,10 +51,8 @@ div.no-padding {
 .hamburguer {
   width: 45px;
   height: 45px;
-  margin-top: 25px;
-  margin-right: auto;
-  margin-bottom: 30px;
-  margin-left: auto;
+  border: 1px solid red;
+  margin-right: 15px;
   position: relative;
 }
 

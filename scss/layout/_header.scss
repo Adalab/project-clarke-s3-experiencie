@@ -2,14 +2,14 @@
   height: 65px;
   width: 100%;
   background-color: $color-midTone-dark;
-  padding-left: 15px;
-  padding-top: 10px;
-  padding-right: 30px;
-  padding-bottom: 24px;
+  padding-right: 0px;
 }
 
 .logo {
   width: 100%;
+  padding: 15px;
+  border: 1px red solid;
+  padding: 0;
 }
 
 .menu-position {
@@ -31,4 +31,14 @@
 
 .hidden {
   display:none;
+}
+
+.no-margin {
+  margin-left: 0;
+  margin-right:0;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
 }
