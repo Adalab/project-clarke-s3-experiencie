@@ -6,6 +6,14 @@ body {
   font-size: $body-font-size-s;
   line-height: $body-line-height;
   font-weight: $body-font-weight-normal;
+}
+
+.font-body {
+  font-family: $body-font-family;
+  color: $color-midTone-dark;
+  font-size: $body-font-size-s;
+  line-height: $body-line-height;
+  font-weight: $body-font-weight-normal;
   @media (min-width: 768px) {
     font-size: $title-font-size-ml;
   }
@@ -52,6 +60,7 @@ body {
     font-size: 3em;
     line-height: 1.3;
   }
+
 }
 
 /*clases para titulos cabecera en verde*/
@@ -78,8 +87,8 @@ body {
   font-weight: $title-font-weight-bold;
 
   @media (min-width: 768px) {
-    font-size: 6.35em;
     line-height: 0.755;
+    font-size: 6.35em;
   }
 }
 
@@ -96,7 +105,7 @@ body {
 /*clases para titulos de secciones internas: testimonios etc*/
 .font-title-section-light {
   font-family: $title-font-family;
-  font-size: $title-font-size-md;
+  font-size: $title-font-size-m;
   line-height: $title-line-height;
   color: $color-light;
   font-weight: $title-font-weight-bolder;
@@ -104,7 +113,7 @@ body {
   text-align: center;
 
   @media (min-width: 768px) {
-    font-size: $title-font-size-l;
+    font-size: $title-font-size-md;
   }
 
 

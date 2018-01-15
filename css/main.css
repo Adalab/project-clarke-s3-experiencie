@@ -1,4 +1,173 @@
-@charset "UTF-8";/*variables tipografias BODY*//*variables tipografias TITULARES*//*margenes buttones*//*añadidos en rama buttons-components*/.buttons {
+@charset "UTF-8";/*variables tipografias BODY*//*variables tipografias TITULARES*//*margenes buttones*//*añadidos en rama buttons-components*/header {
+  height: 65px;
+  width: 100%;
+  padding-right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #444;
+}
+
+.nav {
+  display: none;
+}
+
+.logo-container {
+  width: 150px;
+}
+
+.logo {
+  width: 100%;
+  margin-top: 0px;
+}
+
+.menu-lateral {
+  position: absolute;
+  width: 40%;
+  left: 100%;
+  -webkit-transition: left ease-in-out 2s;
+  transition: left ease-in-out 2s;
+  z-index: 1;
+  display: none;
+}
+
+.animation-menu {
+  position: absolute;
+  left: 60%;
+  display: block;
+}
+
+.menu-list {
+  background-color: #444;
+  margin-top: 0px;
+}
+
+.menu-link {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  list-style: none;
+  border-bottom: 3px solid #6fb52b;
+  text-align: center;
+}
+
+.menu-link:hover {
+  color: white;
+  background-color: #6fb52b;
+}
+
+.menu-item {
+  width: 100%;
+  text-align: center;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: white;
+  font-weight: 400;
+  background-color: #444;
+  list-style: none;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  color: white;
+  background-color: #6fb52b;
+}
+
+.hidden {
+  display: none;
+}
+
+.no-margin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div.no-padding {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.hamburguer-button {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  position: relative;
+  top: 0;
+}
+
+.burguer-line {
+  display: block;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 5px;
+  padding-left: 1px;
+  border-radius: 3px;
+  opacity: 1;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.50s ease-in-out;
+  transition: 0.50s ease-in-out;
+  left: 0;
+  padding: 0;
+}
+
+.burguer-line:nth-child(1) {
+  top: 0;
+}
+
+.burguer-line:nth-child(2) {
+  top: 45%;
+}
+
+.burguer-line:nth-child(3) {
+  bottom: 0;
+}
+
+.close-button .burguer-line {
+  -webkit-transform: rotate(280deg);
+  transform: rotate(280deg);
+}
+
+.close-button .burguer-line:nth-child(1) {
+  top: 45%;
+  left: -40%;
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.close-button .burguer-line:nth-child(2) {
+  left: 0;
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.close-button .burguer-line:nth-child(3) {
+  top: 45%;
+  left: 40%;
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.buttons {
   width: 100%;
   border: 2px solid #6fb52b;
   background: none;
@@ -268,6 +437,14 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
+}
+
+.font-body {
+  font-family: "Crimson Text", serif;
+  color: #444;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
 }/*cuerpo de texto blanco*/.font-body-light {
   font-family: "Crimson Text", serif;
   color: white;
@@ -313,7 +490,7 @@ ol {
   color: white;
 }/*clases para titulos de secciones internas: testimonios etc*/.font-title-section-light {
   font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 35px;
+  font-size: 20px;
   line-height: 1.5;
   color: white;
   font-weight: 800;
@@ -523,6 +700,8 @@ ol {
 
 .background-color-section {
   background-color: #444;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .line-intertext {
@@ -536,6 +715,7 @@ ol {
   margin-top: 20px;
 }
 
+<<<<<<< HEAD
 section {
   background-color: #444;
 }
@@ -544,6 +724,82 @@ section {
   color: #444;
   width: 45px;
   height: 45px;
+=======
+@media all and (min-width: 768px) {
+  header {
+    height: 125px;
+    margin-top: 0px;
+  }
+
+  .nav {
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .logo-container {
+    width: 25%;
+  }
+
+  .menu-lateral {
+    display: none;
+  }
+
+  .menu-list {
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .menu-link {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .menu-item {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .hamburguer-button {
+    display: none;
+  }
+
+  .font-title-section-dark {
+    font-size: 30px;
+  }
+
+  .font-nav-dark {
+    font-size: 16px;
+  }
+>>>>>>> c15bbecf73bf6077e5531afe373f2deb8710c8b9
 }
 
 @media (min-width: 768px) {
@@ -561,7 +817,7 @@ section {
     height: 10px;
   }
 
-  body {
+  .font-body {
     font-size: 22px;
   }
 
@@ -580,8 +836,8 @@ section {
   }
 
   .font-title-hero-primary-xl {
-    font-size: 6.35em;
     line-height: 0.755;
+    font-size: 6.35em;
   }
 
   .font-title-counter-light {
@@ -589,7 +845,7 @@ section {
   }
 
   .font-title-section-light {
-    font-size: 50px;
+    font-size: 35px;
   }
 
   .font-nav-light {
@@ -623,6 +879,7 @@ section {
   }
 }
 
+<<<<<<< HEAD
 @media all and (min-width: 768px) {
   .font-title-section-dark {
     font-size: 30px;
@@ -630,6 +887,11 @@ section {
 
   .font-nav-dark {
     font-size: 16px;
+=======
+@media all and (min-width: 800px) {
+  .menu-item {
+    font-size: 20px;
+>>>>>>> c15bbecf73bf6077e5531afe373f2deb8710c8b9
   }
 }
 
@@ -643,7 +905,7 @@ section {
     margin-left: 6px;
   }
 
-  body {
+  .font-body {
     font-size: 30px;
   }
 
