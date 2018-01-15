@@ -26,33 +26,6 @@ header {
   }
 }
 
-// .navbar-nav {
-//   display:flex;
-//   justify-content: flex-end;
-//   align-items: center;
-//   @media all and (max-width:768px) {
-//     display:none;
-//   }
-// }
-//
-// .navbar {
-//     position: relative;
-//     display: flex;
-//     padding: .5rem 1rem;
-// }
-//
-// .navbar-brand {
-//     display: inline-block;
-//     padding-top: .3125rem;
-//     padding-bottom: .3125rem;
-//     // margin-right: 20rem;
-//     font-size: 1.25rem;
-//     line-height: inherit;
-//     white-space: nowrap;
-//     @media all and (min-width:1280px) {
-//       // margin-right: 50rem;
-//     }
-// }
 
 .logo-container{
   width: 150px;
@@ -113,10 +86,6 @@ header {
   }
 }
 
-.menu-nav-link {
-    border: 1px red solid;
-}
-
 .menu-item {
   width:100%;
   text-align: center;
@@ -136,12 +105,6 @@ header {
     font-size: $body-font-size-l;
   }
 }
-
-a:hover {
-    color: $color-light;
-    background-color: $color-primary;
-}
-
 
 .hidden {
   display:none;
