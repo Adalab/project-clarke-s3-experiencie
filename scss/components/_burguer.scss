@@ -1,50 +1,60 @@
-.hamburguer {
-  width: 28px;
+.hamburguer-button {
+  width: 30px;
   height: 30px;
-  margin-top: 25px;
-  margin-right: auto;
-  margin-bottom: 30px;
-  margin-left: auto;
-  display:block;
-}
-
-.hamburguer span:after,
-.hamburguer span:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: -9px;
-}
-.hamburguer span:after{
-  top: 9px;
-}
-.hamburguer span {
+  margin-right: 15px;
   position: relative;
-  display: block;
+  top:0;
+  @media all and (min-width:768px) {
+    display:none;
+  }
 }
 
-.hamburguer span,
-.hamburguer span:after,
-.hamburguer span:before {
-  width: 100%;
-  height: 3px;
+span {
+  display:block;
+  position:absolute;
   background-color: $color-light;
-  transition: all 0.3s;
-  backface-visibility: hidden;
+  width: 100%;
+  height: 5px;
+  padding-left: 1px;
   border-radius: 3px;
+  opacity: 1;
+  transform: rotate(0deg);
+  transition: 0.50s ease-in-out;
+  left: 0;
+  padding: 0;
 }
 
-/* on activation */
-.hamburguer.on span {
-  background-color: transparent;
+span:nth-child(1) {
+  top: 0;
 }
-.hamburguer.on span:before {
-  transform: rotate(45deg) translate(5px, 5px);
+
+span:nth-child(2) {
+  top: 45%;
 }
-.hamburguer.on span:after {
-  transform: rotate(-45deg) translate(7px, -8px);
+
+span:nth-child(3) {
+  bottom: 0;
 }
-.hamburguer.on + #menu {
-  opacity: 1;
-  visibility: visible;
+
+
+.close-button span {
+  transform: rotate(280deg);
 }
+
+.close-button span:nth-child(1) {
+  top:45%;
+  left:-40%;
+  transform: rotate(270deg);
+}
+
+.close-button span:nth-child(2) {
+  left: 0;
+  transform: rotate(270deg);
+}
+
+.close-button span:nth-child(3) {
+  top: 45%;
+  left: 40%;
+  transform: rotate(270deg);
+  }
+

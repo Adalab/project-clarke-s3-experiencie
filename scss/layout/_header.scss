@@ -1,0 +1,133 @@
+header {
+  height: 65px;
+  width: 100%;
+  padding-right: 0px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $color-midTone-dark;
+
+  @media all and (min-width:768px) {
+    height: 125px;
+    margin-top: 0px;
+  }
+  }
+
+.nav {
+  display: none;
+  @media all and (min-width:768px) {
+    width: 70%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+
+.logo-container{
+  width: 150px;
+  @media all and (min-width:768px) {
+  width: 25%;
+  }
+}
+
+.logo {
+  width: 100%;
+  margin-top: 0px;
+}
+
+.menu-lateral {
+  position: absolute;
+  width: 40%;
+  left:100%;
+  transition:left ease-in-out 2s;
+  z-index:1;
+  display:none;
+
+  @media all and (min-width:768px) {
+  display: none;
+  }
+}
+
+.animation-menu {
+  position: absolute;
+  left:60%;
+  display:block;
+}
+
+.menu-list {
+  background-color: $color-midTone-dark;
+  margin-top: 0px;
+
+  @media all and (min-width:768px) {
+    width:70%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.menu-link {
+  width: 100%;
+  height: 100%;
+  padding:10px;
+  list-style: none;
+  border-bottom: 3px solid $color-primary;
+  text-align: center;
+
+  &:hover {
+      color: $color-light;
+      background-color: $color-primary;
+  }
+
+  @media all and (min-width:768px) {
+    width: 100%;
+    height: 100%;
+    padding:15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+.menu-item {
+  width:100%;
+  text-align: center;
+  font-family: $title-font-family;
+  font-size: $title-font-size-m;
+  line-height: $title-line-height;
+  color: $color-light;
+  font-weight: $title-font-weight-normal;
+  background-color: $color-midTone-dark;
+  list-style: none;
+  text-decoration: none;
+  &:hover {
+      color: $color-light;
+      background-color: $color-primary;
+  }
+  @media all and (min-width:768px) {
+    font-size: $body-font-size-m;
+    font-weight: $body-font-weight-bold;
+  }
+  @media all and (min-width:800px) {
+    font-size: $body-font-size-l;
+  }
+}
+
+
+.hidden {
+  display:none;
+}
+
+.no-margin {
+  margin-left: 0;
+  margin-right:0;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}

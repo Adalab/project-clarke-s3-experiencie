@@ -1,5 +1,16 @@
 'use strict';
 
+var hamburguerButton= document.querySelector('.hamburguer-button');
+var hamburguerButtonClose= document.querySelector('.hamburguer-button-close');
+var menuLateral= document.querySelector('.menu-lateral');
+
+function showMenu() {
+  menuLateral.classList.toggle('animation-menu');
+  hamburguerButton.classList.toggle('close-button');
+}
+
+hamburguerButton.addEventListener('click', showMenu);
+
 // colapsables
 var showStories = document.querySelector('.flecha-abajo');
 var stories = document.querySelector('.panel-body');
