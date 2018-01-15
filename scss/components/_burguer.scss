@@ -1,0 +1,50 @@
+.hamburguer {
+  width: 28px;
+  height: 30px;
+  margin-top: 25px;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  display:block;
+}
+
+.hamburguer span:after,
+.hamburguer span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+.hamburguer span:after{
+  top: 9px;
+}
+.hamburguer span {
+  position: relative;
+  display: block;
+}
+
+.hamburguer span,
+.hamburguer span:after,
+.hamburguer span:before {
+  width: 100%;
+  height: 3px;
+  background-color: $color-light;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border-radius: 3px;
+}
+
+/* on activation */
+.hamburguer.on span {
+  background-color: transparent;
+}
+.hamburguer.on span:before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.hamburguer.on span:after {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+.hamburguer.on + #menu {
+  opacity: 1;
+  visibility: visible;
+}

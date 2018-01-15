@@ -4,25 +4,12 @@
 var showStories = document.querySelector('.flecha-abajo');
 var stories = document.querySelector('.panel-body');
 
-// function toggleInput(){
-//   if (showStories.classList.contains('hidden')){
-// showStories.classList.remove('hidden');
-// stories.classList.remove('hidden');
-// }
-//   else {
-//   showStories.classList.add('hidden');
-//   stories.classList.add('hidden');
-//    }
-// }
-
 function toggleInput(target){
   if (target.classList.contains('hidden')){
 target.classList.remove('hidden');
-// target.classList.remove('hidden');
 }
   else {
   target.classList.add('hidden');
-  // target.classList.add('hidden');
    }
 }
 
@@ -35,23 +22,42 @@ var toggle = function(){
     target.addEventListener('click', toggle);
   });
 
-
-
-
 showStories.addEventListener('click', toggle);
 
 
-// var toggle = function(){
-//   document.querySelectorAll('.flecha-abajo').forEach(toggleInput);
-// };
-//   var aside = document.querySelector('.preview');
-//   toggleInput(aside);
-//   var main = document.querySelector('main');
-// toggleInput(main);
+var counter = 0;
+var time = document.querySelector('.cie-counter');
+var total = 7597;
+var temp = setInterval(incrementCounter, 90);
 
-// window.onload = function (){
-//   document.querySelectorAll('.eye-logo').forEach(function (input) {
-//     input.addEventListener('click', toggle);
-//
-//   });
-// };
+function incrementCounter(){
+  if(counter < 7500) {
+    counter =  counter + 100;
+    time.innerHTML = counter;
+  } else if(7500 <= counter && counter < total){ // 7499 - 7596
+    counter =  counter + 1;
+    time.innerHTML = counter;
+  } else {
+    clearInterval(temp);
+  }
+}
+
+
+var text = "Personas que en 2016 fueron encerradas en un Centro de Internamiento de Extranjeros";
+var steps = 80;
+var i=0;
+var message= text.split('');
+var paragraphCounter= document.querySelector ('.paragraph-counter');
+var writeMachine = setInterval(showMessage,80);
+
+function showMessage (){
+  if(i < message.length){
+    paragraphCounter.innerHTML+=message[i];
+    i++;
+    clearInterval(showMessage);
+  }
+}
+
+
+carousel('pause')
+

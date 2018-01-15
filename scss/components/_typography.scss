@@ -6,6 +6,12 @@ body {
   font-size: $body-font-size-s;
   line-height: $body-line-height;
   font-weight: $body-font-weight-normal;
+  @media (min-width: 768px) {
+    font-size: $title-font-size-ml;
+  }
+  @media (min-width: 1024px) {
+    font-size: $title-font-size-mdl;
+  }
 }
 
 /*cuerpo de texto blanco*/
@@ -15,6 +21,12 @@ body {
   font-size: $body-font-size-s;
   line-height: $body-line-height;
   font-weight: $body-font-weight-normal;
+  @media (min-width: 768px) {
+    font-size: $title-font-size-ml;
+  }
+  @media (min-width: 1024px) {
+    font-size: $title-font-size-mdl;
+  }
 }
 
 .font-captation-light {
@@ -29,43 +41,89 @@ body {
 /*clases para titulos cabecera en blanco*/
 .font-title-hero-light {
   font-family: $title-font-family;
-  font-size: $title-font-size-xl;
+  font-size: $title-font-size-m;
   line-height: $title-line-height;
   color: $color-light;
   font-weight: $title-font-weight-bold;
   letter-spacing: $title-font-letter-spacing;
+  height: 100%;
+
+  @media (min-width: 768px) {
+    font-size: 3em;
+    line-height: 1.3;
+  }
 }
 
 /*clases para titulos cabecera en verde*/
 .font-title-hero-primary {
   font-family: $title-font-family;
-  font-size: $title-font-size-xl;
+  font-size: $title-font-size-m;
   line-height: $title-line-height;
   color: $color-primary;
   font-weight: $title-font-weight-bold;
   letter-spacing: $title-font-letter-spacing;
+
+  @media (min-width: 768px) {
+    font-size: 1em;
+    line-height: 1.3;
+  }
+}
+
+/*clase para CIE carrusel*/
+.font-title-hero-primary-xl {
+  font-family: $title-font-family;
+  font-size: $title-font-size-xxl;
+  line-height: $title-line-height-xs;
+  color: $color-primary;
+  font-weight: $title-font-weight-bold;
+
+  @media (min-width: 768px) {
+    font-size: 6.35em;
+    line-height: 0.755;
+  }
+}
+
+.font-title-counter-light {
+  font-family: $body-font-family;
+  font-size: $title-font-size-counter;
+  line-height: $title-line-height-s;
+  color: $color-light;
+  @media (min-width: 768px) {
+    font-size: 180px;
+  }
 }
 
 /*clases para titulos de secciones internas: testimonios etc*/
 .font-title-section-light {
   font-family: $title-font-family;
-  font-size: $title-font-size-xxl;
+  font-size: $title-font-size-md;
   line-height: $title-line-height;
   color: $color-light;
   font-weight: $title-font-weight-bolder;
   letter-spacing: $title-font-letter-spacing;
   text-align: center;
 
+  @media (min-width: 768px) {
+    font-size: $title-font-size-l;
+  }
+
+
 }
 
 .font-nav-light {
   font-family: $title-font-family;
   font-size: $title-font-size-m;
-  line-height: $title-line-height;
+  line-height: $title-line-height-s;
   color: $color-light;
   font-weight: $title-font-weight-normal;
   letter-spacing: $title-font-letter-spacing;
 
+  @media (min-width: 768px) {
+    font-size: $title-font-size-md;
+  }
+  @media (min-width: 1024px) {
+    font-size: $title-font-size-l;
+  }
 }
 
 .font-title-section-dark {
@@ -99,12 +157,88 @@ font-size: $title-font-size-l;
 
 }
 
+.font-nav-primary {
+  font-family: $title-font-family;
+  font-size: $title-font-size-m;
+  line-height: $title-line-height;
+  color: $color-primary;
+  font-weight: $title-font-weight-normal;
+  letter-spacing: $title-font-letter-spacing;
 
+  @media (min-width: 768px) {
+    font-size: $title-font-size-md;
+  }
+  @media (min-width: 1024px) {
+    font-size: $title-font-size-l;
+  }
+}
+
+//tipografia de los buttones
+.button-type-title{
+  font-family: $title-font-family;
+  font-size: $title-font-size-m;
+  color: $color-light;
+  @media (max-width: 1800px){
+    font-size: $title-font-size-mdl;
+  }
+
+  @media (max-width: 820px){
+    font-size: $title-font-size-m-l;
+  }
+
+  @media (max-width: 768px){
+    font-size: $title-font-size-mdl;
+  }
+
+    @media (max-width: 500px){
+      font-size: $title-font-size-m-l;
+    }
+  @media (max-width: 400px){
+    font-size: $title-font-size-sm;
+  }
+  @media (max-width: 350px){
+    font-size: $title-font-size-s;
+  }
+}
+
+.button-type-smaller-text{
+  font-family: $title-font-family;
+  font-size: $title-font-size-s;
+  color: $color-light;
+  @media (max-width: 820px){
+    font-size: $title-font-size-sm;
+  }
+  @media (max-width: 600px){
+    font-size: $title-font-size-sm;
+  }
+  @media (max-width: 500px){
+    font-size: $title-font-size-s;
+  }
+  @media (max-width: 400px){
+    font-size: $title-font-size-xs;
+  }
+  @media (max-width: 350px){
+    font-size: $title-font-size-xs;
+  }
+}
+
+.what-intersection {
+  font-family: $body-font-family;
+  color: $body-font-color-light;
+  font-size: $title-font-size-m-l;
+  line-height: $body-line-height;
+  font-weight: $body-font-weight-normal;
+  @media (min-width: 768px){
+    font-size: $title-font-size-l;
+  }
+
+}
 
 /*clases tamaño (para usar si queremos aumentar el tamaño de algún estilo no definido)*/
 .medium { font-size: 25px; }
 .big { font-size: 35px; }
 .bigger { font-size: 45px; }
+.extrabigger { font-size: 90px; }
 
 
 /*clases para alinear el texto*/

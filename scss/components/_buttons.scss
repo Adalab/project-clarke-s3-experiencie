@@ -1,0 +1,154 @@
+.buttons{
+  width: 100%;
+  border: 2px solid $color-primary;
+  background: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+
+  &:hover{
+    transform: scale(1.2);
+    border-width: 5px;
+    transition: all 1s ease;
+  }
+}
+
+hr{
+  @include buttonsLine();
+}
+
+
+.row-buttons1{
+  height: 150px;
+  padding-top: $paddingTopRowButtons;
+  padding-bottom: $paddingBottomRowButtons;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  align-items: center;
+  flex-wrap: nowrap;
+
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  @media (max-width: 768px){
+    justify-content: space-between;
+  }
+  @media (max-width: 500px){
+    height: 120px;
+  }
+  @media (max-width: 400px){
+    height: 100px;
+  }
+}
+
+.row-buttons2{
+  height: 150px;
+  padding-top: $paddingTopRowButtons;
+  padding-bottom: $paddingBottomRowButtons;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  align-items: center;
+  flex-wrap: nowrap;
+
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  @media (max-width: 768px){
+    justify-content: space-between;
+  }
+  @media (max-width: 500px){
+    height: 120px;
+  }
+  @media (max-width: 400px){
+    height: 100px;
+  }
+}
+
+.row-buttons-next-section-1{
+  height: $buttonNextSectionHeight;
+  padding-left: $paddingLeftRowButtons;
+  padding-right: $paddingRightRowButtons;
+  padding-top: $paddingTopRowButtons;
+  padding-bottom: $paddingBottomRowButtonsNextSection;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+}
+
+
+
+.row-buttons-next-section-2{
+  height: $buttonNextSectionHeight;
+  padding-left: $paddingLeftRowButtons;
+  padding-right: $paddingRightRowButtons;
+  padding-top: $paddingTopRowButtons;
+  padding-bottom: $paddingBottomRowButtonsNextSection;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+
+
+.buttons-next-section-right{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  background: $color-primary;
+  cursor: pointer;
+  &:hover{
+    animation-name: buttonNextSecRightAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+}
+
+.buttons-next-section-left{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  background: $color-primary;
+  cursor: pointer;
+  &:hover{
+    animation-name: buttonNextSecLeftAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+}
+
+.green-void{
+  background: $color-primary;
+}
+
+.transparent-void{
+  background: none;
+  width: 5%;
+}
+
+.transparent-void-midad{
+  background: none;
+  width: 2.5%;
+}
+
+.buttons-global-continer{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+  @media (max-width: 768px){
+    flex-direction: column;
+  }
+}
+
+a:hover {
+  text-decoration: none;
+}

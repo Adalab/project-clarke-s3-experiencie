@@ -1,6 +1,8 @@
 @import "core/funciones";
 @import "core/variables";
 @import "core/mixins";
+@import "core/settings";
+@import "core/animation-buttons";
 
 @import "layout/header";
 @import "layout/footer";
@@ -11,12 +13,11 @@
 @import "components/typography";
 @import "components/forms";
 @import "components/whiteboxes";
+@import "components/counter";
 
-// @import "pages/about-us";
-// @import "pages/contact";
+
 @import "pages/home";
+@import "pages/what";
+@import "pages/who";
+@import "pages/why";
 
-
-body {
-background-color: $color-midTone-dark;
-}
