@@ -330,6 +330,23 @@ ol {
   letter-spacing: 5px;
 }
 
+.font-title-section-dark {
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #444;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.font-nav-dark {
+  font-family: "Crimson Text", serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #444;
+  font-weight: 400;
+}
+
 .font-nav-primary {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 20px;
@@ -356,24 +373,6 @@ ol {
   color: white;
   font-size: 25px;
   line-height: 1.5;
-  font-weight: 400;
-  letter-spacing: 10px;
-}
-
-.font-title-section-dark {
-  font-family: "Crimson Text", serif;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #444;
-  font-weight: 400;
-  text-align: justify;
-}
-
-.font-nav-dark {
-  font-family: "Crimson Text", serif;
-  font-size: 12px;
-  line-height: 1.5;
-  color: #444;
   font-weight: 400;
 }/*clases tamaño (para usar si queremos aumentar el tamaño de algún estilo no definido)*/.medium {
   font-size: 25px;
@@ -408,7 +407,6 @@ ol {
 }/*clase para mayusuculas*/.uppercase {
   text-transform: uppercase;
 }
-
 
 .panel {
   border: 3px solid #6fb52b;
@@ -464,16 +462,6 @@ ol {
   padding: 15px;
 }
 
-body {
-  background-color: #444;
-}
-
-@media all and (min-width: 768px) {
-  .font-title-section-dark {
-    font-size: 30px;
-  }
-
-  .font-nav-dark {
 .container-counter {
   margin-top: 20px;
   border-bottom: 20px solid #6fb52b;
@@ -627,6 +615,16 @@ body {
   }
 }
 
+@media all and (min-width: 768px) {
+  .font-title-section-dark {
+    font-size: 30px;
+  }
+
+  .font-nav-dark {
+    font-size: 16px;
+  }
+}
+
 @media (min-width: 1024px) {
   .carousel-indicators {
     margin-right: 40px;
@@ -661,6 +659,16 @@ body {
   .introduction-what {
     margin-top: 50px;
     margin-bottom: 50px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .font-title-section-dark {
+    font-size: 50px;
+  }
+
+  .font-nav-dark {
+    font-size: 18px;
   }
 }
 
@@ -728,16 +736,6 @@ body {
     font-size: 16px;
   }
 }
-
-
-@media all and (min-width: 1024px) {
-  .font-title-section-dark {
-    font-size: 50px;
-  }
-
-  .font-nav-dark {
-    font-size: 18px;
-  }
 
 @media (max-width: 400px) {
   .row-buttons1 {
@@ -813,7 +811,6 @@ body {
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
   }
-
 }
 
 /*# sourceMappingURL=main.css.map */

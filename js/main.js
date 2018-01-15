@@ -22,7 +22,9 @@ var toggle = function(){
     target.addEventListener('click', toggle);
   });
 
-showStories.addEventListener('click', toggle);
+if(showStories){
+  showStories.addEventListener('click', toggle);
+}
 
 
 var counter = 0;
@@ -31,6 +33,10 @@ var total = 7597;
 var temp = setInterval(incrementCounter, 90);
 
 function incrementCounter(){
+  if(!time){
+    return clearInterval(temp);
+  }
+
   if(counter < 7500) {
     counter =  counter + 100;
     time.innerHTML = counter;
@@ -51,7 +57,7 @@ var paragraphCounter= document.querySelector ('.paragraph-counter');
 var writeMachine = setInterval(showMessage,80);
 
 function showMessage (){
-  if(i < message.length){
+  if(i < message.length && paragraphCounter){
     paragraphCounter.innerHTML+=message[i];
     i++;
     clearInterval(showMessage);
@@ -60,4 +66,3 @@ function showMessage (){
 
 
 carousel('pause')
-
