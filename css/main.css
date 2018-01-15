@@ -357,6 +357,24 @@ ol {
   font-size: 25px;
   line-height: 1.5;
   font-weight: 400;
+  letter-spacing: 10px;
+}
+
+.font-title-section-dark {
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #444;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.font-nav-dark {
+  font-family: "Crimson Text", serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #444;
+  font-weight: 400;
 }/*clases tamaño (para usar si queremos aumentar el tamaño de algún estilo no definido)*/.medium {
   font-size: 25px;
 }
@@ -391,6 +409,71 @@ ol {
   text-transform: uppercase;
 }
 
+
+.panel {
+  border: 3px solid #6fb52b;
+  background-color: white;
+  color: #444;
+  padding: 0px;
+  display: inline-block;
+}
+
+.panel-title {
+  margin: 0;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.x-verde {
+  width: 60px;
+  height: 60px;
+}
+
+.dotted {
+  border: 1px dotted #444;
+  margin: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.panel-heading {
+  margin: 20px;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.container-fluid {
+  line-height: 0.5;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.stories {
+  padding: 2rem;
+  line-height: 1.4;
+}
+
+.padding-section {
+  padding: 15px;
+}
+
+body {
+  background-color: #444;
+}
+
+@media all and (min-width: 768px) {
+  .font-title-section-dark {
+    font-size: 30px;
+  }
+
+  .font-nav-dark {
 .container-counter {
   margin-top: 20px;
   border-bottom: 20px solid #6fb52b;
@@ -646,6 +729,16 @@ ol {
   }
 }
 
+
+@media all and (min-width: 1024px) {
+  .font-title-section-dark {
+    font-size: 50px;
+  }
+
+  .font-nav-dark {
+    font-size: 18px;
+  }
+
 @media (max-width: 400px) {
   .row-buttons1 {
     height: 100px;
@@ -720,6 +813,7 @@ ol {
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
   }
+
 }
 
 /*# sourceMappingURL=main.css.map */
