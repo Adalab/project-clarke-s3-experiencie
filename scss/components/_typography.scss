@@ -15,6 +15,12 @@ body {
   font-size: $body-font-size-s;
   line-height: $body-line-height;
   font-weight: $body-font-weight-normal;
+  @media (min-width: 768px) {
+    font-size: $title-font-size-ml;
+  }
+  @media (min-width: 1024px) {
+    font-size: $title-font-size-mdl;
+  }  
 }
 
 .font-captation-light {
@@ -76,6 +82,9 @@ body {
   font-size: $title-font-size-counter;
   line-height: $title-line-height-s;
   color: $color-light;
+  @media (min-width: 768px) {
+    font-size: 180px;
+  }
 }
 
 /*clases para titulos de secciones internas: testimonios etc*/
@@ -151,7 +160,7 @@ body {
 
 .button-type-smaller-text{
   font-family: $title-font-family;
-  font-size: $title-font-size-s; 
+  font-size: $title-font-size-s;
   color: $color-light;
   @media (max-width: 820px){
     font-size: $title-font-size-sm;

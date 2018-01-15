@@ -1,14 +1,15 @@
 .buttons{
   width: 100%;
-  height: 100%;
   border: 2px solid $color-primary;
   background: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
   cursor: pointer;
 
   &:hover{
-  transform: scale(1.2);
-  border-width: 5px;
-  transition: all 1s ease;
+    transform: scale(1.2);
+    border-width: 5px;
+    transition: all 1s ease;
   }
 }
 
@@ -23,7 +24,7 @@ hr{
   padding-bottom: $paddingBottomRowButtons;
   display: flex;
   flex-direction: row;
-    justify-content: flex-end;
+  justify-content: space-between;
 
   align-items: center;
   flex-wrap: nowrap;
@@ -32,7 +33,7 @@ hr{
   margin-left: auto;
   margin-right: auto;
   @media (max-width: 768px){
-    justify-content: center;
+    justify-content: space-between;
   }
   @media (max-width: 500px){
     height: 120px;
@@ -48,16 +49,16 @@ hr{
   padding-bottom: $paddingBottomRowButtons;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
 
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: nowrap;
 
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   @media (max-width: 768px){
-    justify-content: center;
+    justify-content: space-between;
   }
   @media (max-width: 500px){
     height: 120px;
@@ -69,10 +70,10 @@ hr{
 
 .row-buttons-next-section-1{
   height: $buttonNextSectionHeight;
-padding-left: $paddingLeftRowButtons;
-padding-right: $paddingRightRowButtons;
-padding-top: $paddingTopRowButtons;
-padding-bottom: $paddingBottomRowButtonsNextSection;
+  padding-left: $paddingLeftRowButtons;
+  padding-right: $paddingRightRowButtons;
+  padding-top: $paddingTopRowButtons;
+  padding-bottom: $paddingBottomRowButtonsNextSection;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -82,7 +83,7 @@ padding-bottom: $paddingBottomRowButtonsNextSection;
 
 
 .row-buttons-next-section-2{
-    height: $buttonNextSectionHeight;
+  height: $buttonNextSectionHeight;
   padding-left: $paddingLeftRowButtons;
   padding-right: $paddingRightRowButtons;
   padding-top: $paddingTopRowButtons;
@@ -142,7 +143,12 @@ padding-bottom: $paddingBottomRowButtonsNextSection;
   flex-wrap: nowrap;
   align-items: center;
   flex-direction: row;
+  margin-top: 20px;
   @media (max-width: 768px){
-      flex-direction: column;
+    flex-direction: column;
   }
+}
+
+a:hover {
+  text-decoration: none;
 }
