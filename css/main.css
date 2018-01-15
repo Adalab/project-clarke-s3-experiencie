@@ -1,19 +1,62 @@
-@charset "UTF-8";/*variables tipografias BODY*//*variables tipografias TITULARES*/.header {
+@charset "UTF-8";/*variables tipografias BODY*//*variables tipografias TITULARES*/header {
   height: 65px;
   width: 100%;
-  background-color: #444;
   padding-right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.bg-dark {
+  background-color: #444 !important;
+}
+
+.navbar {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: .5rem 1rem;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
 }
 
 .logo {
-  width: 150%;
+  width: 100%;
   margin-top: 0px;
 }
 
 .menu-lateral {
   position: relative;
   right: -100%;
-  padding-top: 10px;
   -webkit-transition: right ease-in-out 1s;
   transition: right ease-in-out 1s;
 }
@@ -28,7 +71,7 @@
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: white;
+  color: white !important;
   font-weight: 400;
   background-color: #444;
 }
@@ -250,17 +293,13 @@ span:nth-child(3) {
 }
 
 body {
+  background-color: black;
   margin: 0;
 }
 
 @media all and (min-width: 768px) {
-  .header {
+  header {
     height: 100px;
-    margin-top: 0px;
-  }
-
-  .logo {
-    width: 200%;
     margin-top: 0px;
   }
 
@@ -269,11 +308,21 @@ body {
     font-weight: 600;
     padding-right: 10px;
   }
+
+  .hamburguer-button {
+    display: none;
+  }
 }
 
 @media all and (min-width: 1280px) {
   .nav-link {
     font-size: 20px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .navbar-nav {
+    display: none;
   }
 }
 

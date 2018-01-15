@@ -1,28 +1,61 @@
-.header {
+header {
   height: 65px;
   width: 100%;
-  background-color: $color-midTone-dark;
   padding-right: 0px;
-  
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+
   @media all and (min-width:768px) {
     height: 100px;
     margin-top: 0px;
   }
   }
 
-.logo {
-  width: 150%;
-  margin-top: 0px;
-@media all and (min-width:768px) {
-  width: 200%;
-  margin-top: 0px;
+.navbar-nav {
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  @media all and (max-width:768px) {
+    display:none;
+  }
 }
+
+
+
+.bg-dark {
+  background-color: $color-midTone-dark!important;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    padding: .5rem 1rem;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    // margin-right: 20rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    @media all and (min-width:1280px) {
+      // margin-right: 50rem;
+
+    }
+}
+
+.logo {
+  width: 100%;
+  margin-top: 0px;
 }
 
 .menu-lateral {
   position: relative;
   right:-100%;
-  padding-top: 10px;
   transition: right ease-in-out 1s;
 }
 
@@ -37,7 +70,7 @@
   font-family: $title-font-family;
   font-size: $body-font-size-s;
   line-height: $title-line-height;
-  color: $color-light;
+  color: $color-light!important;
   font-weight: $title-font-weight-normal;
   background-color: $color-midTone-dark;
 
