@@ -553,10 +553,6 @@ ol {
     height: 10px;
   }
 
-  body {
-    font-size: 22px;
-  }
-
   .font-body-light {
     font-size: 22px;
   }
@@ -572,8 +568,8 @@ ol {
   }
 
   .font-title-hero-primary-xl {
-    font-size: 3.6em;
     line-height: 0.755;
+    font-size: 6.35em;
   }
 
   .font-title-counter-light {
@@ -633,10 +629,6 @@ ol {
   .carousel-indicators li {
     margin-right: 6px;
     margin-left: 6px;
-  }
-
-  body {
-    font-size: 30px;
   }
 
   .font-body-light {

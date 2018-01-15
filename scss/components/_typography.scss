@@ -6,12 +6,12 @@ body {
   font-size: $body-font-size-s;
   line-height: $body-line-height;
   font-weight: $body-font-weight-normal;
-  @media (min-width: 768px) {
-    font-size: $title-font-size-ml;
-  }
-  @media (min-width: 1024px) {
-    font-size: $title-font-size-mdl;
-  }
+  // @media (min-width: 768px) {
+  //   font-size: $title-font-size-ml;
+  // }
+  // @media (min-width: 1024px) {
+  //   font-size: $title-font-size-mdl;
+  // }
 }
 
 /*cuerpo de texto blanco*/
@@ -52,6 +52,7 @@ body {
     font-size: 3em;
     line-height: 1.3;
   }
+
 }
 
 /*clases para titulos cabecera en verde*/
@@ -78,8 +79,8 @@ body {
   font-weight: $title-font-weight-bold;
 
   @media (min-width: 768px) {
-    font-size: 3.6em;
     line-height: 0.755;
+    font-size: 6.35em;
   }
 }
 
