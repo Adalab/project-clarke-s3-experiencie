@@ -6,6 +6,12 @@ body {
   font-size: $body-font-size-s;
   line-height: $body-line-height;
   font-weight: $body-font-weight-normal;
+  @media (min-width: 768px) {
+    font-size: $title-font-size-ml;
+  }
+  @media (min-width: 1024px) {
+    font-size: $title-font-size-mdl;
+  }
 }
 
 /*cuerpo de texto blanco*/
@@ -20,7 +26,7 @@ body {
   }
   @media (min-width: 1024px) {
     font-size: $title-font-size-mdl;
-  }  
+  }
 }
 
 .font-captation-light {
@@ -90,12 +96,16 @@ body {
 /*clases para titulos de secciones internas: testimonios etc*/
 .font-title-section-light {
   font-family: $title-font-family;
-  font-size: $title-font-size-xxl;
+  font-size: $title-font-size-md;
   line-height: $title-line-height;
   color: $color-light;
   font-weight: $title-font-weight-bolder;
   letter-spacing: $title-font-letter-spacing;
   text-align: center;
+  @media (min-width: 768px) {
+    font-size: $title-font-size-l;
+  }
+
 }
 
 .font-nav-light {
@@ -177,6 +187,18 @@ body {
   @media (max-width: 350px){
     font-size: $title-font-size-xs;
   }
+}
+
+.what-intersection {
+  font-family: $body-font-family;
+  color: $body-font-color-light;
+  font-size: $title-font-size-m-l;
+  line-height: $body-line-height;
+  font-weight: $body-font-weight-normal;
+  @media (min-width: 768px){
+    font-size: $title-font-size-l;
+  }
+
 }
 
 /*clases tamaño (para usar si queremos aumentar el tamaño de algún estilo no definido)*/

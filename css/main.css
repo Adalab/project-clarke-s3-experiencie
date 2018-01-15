@@ -313,7 +313,7 @@ ol {
   color: white;
 }/*clases para titulos de secciones internas: testimonios etc*/.font-title-section-light {
   font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 150px;
+  font-size: 35px;
   line-height: 1.5;
   color: white;
   font-weight: 800;
@@ -349,6 +349,14 @@ ol {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 16px;
   color: white;
+}
+
+.what-intersection {
+  font-family: "Crimson Text", serif;
+  color: white;
+  font-size: 25px;
+  line-height: 1.5;
+  font-weight: 400;
 }/*clases tamaño (para usar si queremos aumentar el tamaño de algún estilo no definido)*/.medium {
   font-size: 25px;
 }
@@ -427,6 +435,34 @@ ol {
   background-image: url("../images/cie-1024x682BN.jpg");
   background-size: cover;
   height: 180px;
+  padding-left: 30px;
+}
+
+.introduction-what {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.intersection-line {
+  border: 0.5px solid #444;
+  width: 30%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.background-color-section {
+  background-color: #444;
+}
+
+.line-intertext {
+  border: 0.5px solid white;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.margin-top-title {
+  margin-top: 20px;
 }
 
 @media (min-width: 768px) {
@@ -442,6 +478,10 @@ ol {
   .carousel-indicators li {
     width: 10px;
     height: 10px;
+  }
+
+  body {
+    font-size: 22px;
   }
 
   .font-body-light {
@@ -467,12 +507,20 @@ ol {
     font-size: 180px;
   }
 
+  .font-title-section-light {
+    font-size: 50px;
+  }
+
   .font-nav-light {
     font-size: 35px;
   }
 
   .font-nav-primary {
     font-size: 35px;
+  }
+
+  .what-intersection {
+    font-size: 50px;
   }
 
   .introduction-container {
@@ -485,6 +533,12 @@ ol {
 
   .background-section-image {
     height: 380px;
+    padding-left: 40px;
+  }
+
+  .introduction-what {
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 }
 
@@ -496,6 +550,10 @@ ol {
   .carousel-indicators li {
     margin-right: 6px;
     margin-left: 6px;
+  }
+
+  body {
+    font-size: 30px;
   }
 
   .font-body-light {
@@ -512,6 +570,12 @@ ol {
 
   .background-section-image {
     height: 480px;
+    padding-left: 50px;
+  }
+
+  .introduction-what {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 
