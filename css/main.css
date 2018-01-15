@@ -14,39 +14,18 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #444;
 }
 
-.navbar-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+.nav {
+  display: none;
 }
 
-.bg-dark {
-  background-color: #444 !important;
-}
-
-.navbar {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: .5rem 1rem;
-}
-
-.navbar-brand {
-  display: inline-block;
-  padding-top: .3125rem;
-  padding-bottom: .3125rem;
-  font-size: 1.25rem;
-  line-height: inherit;
-  white-space: nowrap;
+.logo-container {
+  width: 150px;
 }
 
 .logo {
@@ -63,26 +42,49 @@
 
 .animation-menu {
   position: relative;
-  right: 0;
+  right: -50%;
 }
 
-.nav-link {
+.menu-list {
+  width: 50%;
+  background-color: #444;
+  margin-top: 0px;
+}
+
+.menu-link {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  list-style: none;
+  border-bottom: 3px solid #6fb52b;
+  text-align: center;
+}
+
+.menu-link:hover {
+  color: white;
+  background-color: #6fb52b;
+}
+
+.menu-nav-link {
+  border: 1px red solid;
+}
+
+.menu-item {
+  width: 100%;
   text-align: center;
   font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
-  color: white !important;
+  color: white;
   font-weight: 400;
   background-color: #444;
+  list-style: none;
+  text-decoration: none;
 }
 
 a:hover {
   color: white;
   background-color: #6fb52b;
-}
-
-.list-group-item {
-  border-bottom: 3px solid #6fb52b;
 }
 
 .hidden {
@@ -299,14 +301,59 @@ body {
 
 @media all and (min-width: 768px) {
   header {
-    height: 100px;
+    height: 125px;
     margin-top: 0px;
   }
 
-  .nav-link {
-    font-size: 20px;
+  .nav {
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .logo-container {
+    width: 25%;
+  }
+
+  .menu-list {
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .menu-link {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .menu-item {
+    font-size: 18px;
     font-weight: 600;
-    padding-right: 10px;
   }
 
   .hamburguer-button {
@@ -314,15 +361,9 @@ body {
   }
 }
 
-@media all and (min-width: 1280px) {
-  .nav-link {
+@media all and (min-width: 800px) {
+  .menu-item {
     font-size: 20px;
-  }
-}
-
-@media all and (max-width: 768px) {
-  .navbar-nav {
-    display: none;
   }
 }
 

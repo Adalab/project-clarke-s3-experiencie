@@ -8,6 +8,7 @@ var menuLateral= document.querySelector('.menu-lateral');
 function showMenu() {
   menuLateral.classList.toggle('animation-menu');
   hamburguerButton.classList.toggle('close-button');
+
   // burguerDown.classList.toggle('animation-burguer');
 }
 
