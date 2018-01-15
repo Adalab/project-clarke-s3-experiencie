@@ -78,6 +78,11 @@
   text-decoration: none;
 }
 
+.menu-item:hover {
+  color: white;
+  background-color: #6fb52b;
+}
+
 .hidden {
   display: none;
 }
