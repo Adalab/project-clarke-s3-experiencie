@@ -9,7 +9,7 @@
   }
 }
 
-span {
+.burguer-line {
   display:block;
   position:absolute;
   background-color: $color-light;
@@ -24,37 +24,36 @@ span {
   padding: 0;
 }
 
-span:nth-child(1) {
+.burguer-line:nth-child(1) {
   top: 0;
 }
 
-span:nth-child(2) {
+.burguer-line:nth-child(2) {
   top: 45%;
 }
 
-span:nth-child(3) {
+.burguer-line:nth-child(3) {
   bottom: 0;
 }
 
 
-.close-button span {
+.close-button .burguer-line {
   transform: rotate(280deg);
 }
 
-.close-button span:nth-child(1) {
+.close-button .burguer-line:nth-child(1) {
   top:45%;
   left:-40%;
   transform: rotate(270deg);
 }
 
-.close-button span:nth-child(2) {
+.close-button .burguer-line:nth-child(2) {
   left: 0;
   transform: rotate(270deg);
 }
 
-.close-button span:nth-child(3) {
+.close-button .burguer-line:nth-child(3) {
   top: 45%;
   left: 40%;
   transform: rotate(270deg);
   }
-
