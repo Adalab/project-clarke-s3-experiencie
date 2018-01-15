@@ -190,7 +190,7 @@ hr {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 a:hover {
@@ -401,6 +401,28 @@ ol {
   background-attachment: fixed;
 }
 
+.text-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.introduction-container {
+  margin-top: 20px;
+}
+
+.division-line {
+  margin-top: 20px;
+  border: 1px solid #6fb52b;
+}
+
+.ong-logo {
+  width: 30%;
+}
+
+.padding-logo {
+  padding: 15px;
+}
+
 .background-section-image {
   background-image: url("../images/cie-1024x682BN.jpg");
   background-size: cover;
@@ -451,6 +473,14 @@ ol {
 
   .font-nav-primary {
     font-size: 35px;
+  }
+
+  .introduction-container {
+    margin-top: 60px;
+  }
+
+  .ong-logo {
+    width: 20%;
   }
 
   .background-section-image {
