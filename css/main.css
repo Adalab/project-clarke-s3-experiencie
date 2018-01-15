@@ -34,19 +34,22 @@
 }
 
 .menu-lateral {
-  position: relative;
-  right: -100%;
-  -webkit-transition: right ease-in-out 1s;
-  transition: right ease-in-out 1s;
+  position: absolute;
+  width: 40%;
+  left: 100%;
+  -webkit-transition: left ease-in-out 2s;
+  transition: left ease-in-out 2s;
+  z-index: 1;
+  display: none;
 }
 
 .animation-menu {
-  position: relative;
-  right: -50%;
+  position: absolute;
+  left: 60%;
+  display: block;
 }
 
 .menu-list {
-  width: 50%;
   background-color: #444;
   margin-top: 0px;
 }
@@ -294,6 +297,10 @@ body {
 
   .logo-container {
     width: 25%;
+  }
+
+  .menu-lateral {
+    display: none;
   }
 
   .menu-list {
