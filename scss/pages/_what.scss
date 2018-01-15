@@ -1,0 +1,52 @@
+.background-section-image {
+  background-image: url('../images/cie-1024x682BN.jpg');
+  background-size: cover;
+  height: 180px;
+  padding-left: 30px;
+
+  @media (min-width: 768px) {
+    height: 380px;
+    padding-left: 40px;
+  }
+  @media (min-width: 1024px) {
+    height: 480px;
+    padding-left: 50px;
+  }
+}
+
+.introduction-what {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  @media (min-width: 768px) {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  @media (min-width: 1024px) {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+.intersection-line {
+  border: 0.5px solid $color-midTone-dark;
+  width: 30%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.background-color-section {
+  background-color: $color-midTone-dark;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.line-intertext {
+  border: 0.5px solid $color-light;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.margin-top-title {
+  margin-top: 20px;
+}

@@ -1,0 +1,35 @@
+.background-page-image {
+  background-image: url("../images/cie-1024x682BN.jpg");
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.text-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.introduction-container {
+  margin-top: 20px;
+  @media (min-width: 768px) {
+    margin-top: 60px;
+  }
+}
+
+.division-line {
+  margin-top: 20px;
+  border: 1px solid $color-primary;
+}
+
+.ong-logo {
+  width: 30%;
+  @media (min-width: 768px){
+    width: 20%;
+  }
+}
+
+.padding-logo {
+  padding: 15px;
+}

@@ -1,6 +1,8 @@
 @import "core/funciones";
 @import "core/variables";
 @import "core/mixins";
+@import "core/settings";
+@import "core/animation-buttons";
 
 @import "layout/header";
 @import "layout/footer";
@@ -11,18 +13,12 @@
 @import "components/hero";
 @import "components/typography";
 @import "components/forms";
+@import "components/whiteboxes";
+@import "components/counter";
+
 
 @import "pages/home";
 @import "pages/what";
 @import "pages/who";
 @import "pages/why";
 
-
-* {
-box-sizing: border-box;
-}
-
-body {
-background-color: black;
-margin: 0;
-}
