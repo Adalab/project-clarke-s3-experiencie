@@ -268,6 +268,14 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
+}
+
+.font-body {
+  font-family: "Crimson Text", serif;
+  color: #444;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
 }/*cuerpo de texto blanco*/.font-body-light {
   font-family: "Crimson Text", serif;
   color: white;
@@ -553,6 +561,10 @@ ol {
     height: 10px;
   }
 
+  .font-body {
+    font-size: 22px;
+  }
+
   .font-body-light {
     font-size: 22px;
   }
@@ -629,6 +641,10 @@ ol {
   .carousel-indicators li {
     margin-right: 6px;
     margin-left: 6px;
+  }
+
+  .font-body {
+    font-size: 30px;
   }
 
   .font-body-light {

@@ -6,12 +6,20 @@ body {
   font-size: $body-font-size-s;
   line-height: $body-line-height;
   font-weight: $body-font-weight-normal;
-  // @media (min-width: 768px) {
-  //   font-size: $title-font-size-ml;
-  // }
-  // @media (min-width: 1024px) {
-  //   font-size: $title-font-size-mdl;
-  // }
+}
+
+.font-body {
+  font-family: $body-font-family;
+  color: $color-midTone-dark;
+  font-size: $body-font-size-s;
+  line-height: $body-line-height;
+  font-weight: $body-font-weight-normal;
+  @media (min-width: 768px) {
+    font-size: $title-font-size-ml;
+  }
+  @media (min-width: 1024px) {
+    font-size: $title-font-size-mdl;
+  }
 }
 
 /*cuerpo de texto blanco*/
