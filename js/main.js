@@ -1,4 +1,29 @@
-'use strict'
+'use strict';
+
+// colapsables
+var showStories = document.querySelector('.flecha-abajo');
+var stories = document.querySelector('.panel-body');
+
+function toggleInput(target){
+  if (target.classList.contains('hidden')){
+target.classList.remove('hidden');
+}
+  else {
+  target.classList.add('hidden');
+   }
+}
+
+var toggle = function(){
+  document.querySelectorAll('.flecha-abajo').forEach(toggleInput);
+  var stories = document.querySelector('.panel-body');
+  toggleInput(stories);
+  };
+  document.querySelectorAll('.flecha-abajo').forEach(function (target) {
+    target.addEventListener('click', toggle);
+  });
+
+showStories.addEventListener('click', toggle);
+
 
 var counter = 0;
 var time = document.querySelector('.cie-counter');
@@ -35,3 +60,4 @@ function showMessage (){
 
 
 carousel('pause')
+

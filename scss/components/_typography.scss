@@ -102,9 +102,11 @@ body {
   font-weight: $title-font-weight-bolder;
   letter-spacing: $title-font-letter-spacing;
   text-align: center;
+
   @media (min-width: 768px) {
     font-size: $title-font-size-l;
   }
+
 
 }
 
@@ -122,6 +124,37 @@ body {
   @media (min-width: 1024px) {
     font-size: $title-font-size-l;
   }
+}
+
+.font-title-section-dark {
+  font-family: $body-font-family;
+  font-size: $title-font-size-m;
+  line-height: $title-line-height;
+  color: $title-font-color-dark;
+  font-weight: $title-font-weight-normal;
+  text-align:justify;
+
+@media all and (min-width: 768px){
+font-size: $body-font-size-xl;
+}
+@media all and (min-width: 1024px){
+font-size: $title-font-size-l;
+}
+}
+
+.font-nav-dark {
+  font-family:$body-font-family;
+  font-size: $body-font-size-xs;
+  line-height: $title-line-height;
+  color: $body-font-color-dark;
+  font-weight: $title-font-weight-normal;
+  @media all and (min-width: 768px){
+  font-size: $body-font-size-s;
+    }
+  @media all and (min-width: 1024px){
+  font-size: $body-font-size-m;
+  }
+
 }
 
 .font-nav-primary {
