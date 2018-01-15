@@ -313,7 +313,7 @@ ol {
   color: white;
 }/*clases para titulos de secciones internas: testimonios etc*/.font-title-section-light {
   font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 35px;
+  font-size: 20px;
   line-height: 1.5;
   color: white;
   font-weight: 800;
@@ -452,6 +452,8 @@ ol {
 
 .background-color-section {
   background-color: #444;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .line-intertext {
@@ -499,7 +501,7 @@ ol {
   }
 
   .font-title-hero-primary-xl {
-    font-size: 6.35em;
+    font-size: 3.6em;
     line-height: 0.755;
   }
 
@@ -508,7 +510,7 @@ ol {
   }
 
   .font-title-section-light {
-    font-size: 50px;
+    font-size: 35px;
   }
 
   .font-nav-light {

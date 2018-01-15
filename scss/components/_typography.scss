@@ -78,7 +78,7 @@ body {
   font-weight: $title-font-weight-bold;
 
   @media (min-width: 768px) {
-    font-size: 6.35em;
+    font-size: 3.6em;
     line-height: 0.755;
   }
 }
@@ -96,14 +96,14 @@ body {
 /*clases para titulos de secciones internas: testimonios etc*/
 .font-title-section-light {
   font-family: $title-font-family;
-  font-size: $title-font-size-md;
+  font-size: $title-font-size-m;
   line-height: $title-line-height;
   color: $color-light;
   font-weight: $title-font-weight-bolder;
   letter-spacing: $title-font-letter-spacing;
   text-align: center;
   @media (min-width: 768px) {
-    font-size: $title-font-size-l;
+    font-size: $title-font-size-md;
   }
 
 }
