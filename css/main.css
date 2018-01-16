@@ -240,8 +240,6 @@ hr {
 
 .row-buttons-next-section-1 {
   height: 120px;
-  padding-left: 15px;
-  padding-right: 15px;
   padding-top: 15px;
   padding-bottom: 10px;
   display: -webkit-box;
@@ -260,8 +258,6 @@ hr {
 
 .row-buttons-next-section-2 {
   height: 120px;
-  padding-left: 15px;
-  padding-right: 15px;
   padding-top: 15px;
   padding-bottom: 10px;
   display: -webkit-box;
@@ -293,6 +289,15 @@ hr {
   align-items: center;
   background: #6fb52b;
   cursor: pointer;
+  padding-top: 35px;
+}
+
+.buttons-next-section-right a:hover {
+  color: white;
+}
+
+.buttons-next-section-right img {
+  width: 200px;
 }
 
 .buttons-next-section-right:hover {
@@ -319,6 +324,15 @@ hr {
   align-items: center;
   background: #6fb52b;
   cursor: pointer;
+  padding-top: 35px;
+}
+
+.buttons-next-section-left a:hover {
+  color: white;
+}
+
+.buttons-next-section-left img {
+  width: 200px;
 }
 
 .buttons-next-section-left:hover {
@@ -535,6 +549,7 @@ ol {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 20px;
   color: white;
+  font-size: 35px;
 }
 
 .button-type-smaller-text {
@@ -952,12 +967,6 @@ section {
   }
 }
 
-@media (max-width: 1800px) {
-  .button-type-title {
-    font-size: 30px;
-  }
-}
-
 @media (max-width: 820px) {
   .button-type-title {
     font-size: 25px;
@@ -1006,6 +1015,14 @@ section {
 
   .row-buttons2 {
     height: 120px;
+  }
+
+  .buttons-next-section-right img {
+    width: 100px;
+  }
+
+  .buttons-next-section-left img {
+    width: 100px;
   }
 
   .button-type-title {
