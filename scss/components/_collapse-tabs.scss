@@ -24,14 +24,13 @@ height: 90%;
 border: 1px dotted $color-midTone-dark;
 margin:0;
 width: 100%;
-margin:0;
 padding: 0;
+// height: 60px;
 }
 .hidden {
 display: none;
 }
 .panel-heading{
-// margin: 20px;
 align-content: center;
 }
 .container-fluid {
@@ -44,8 +43,7 @@ margin-left: auto;
 margin-bottom: 25px;
 }
 .stories {
-  // padding: 2rem;
-  line-height: 1.4;
+    line-height: 1.4;
 }
 
 .padding-section {
@@ -54,5 +52,7 @@ padding: 15px;
 
 .flecha-abajo {
 padding: 0px;
-margin:0px;
+margin: 0px;
+width:20%;
+height:20%;
 }

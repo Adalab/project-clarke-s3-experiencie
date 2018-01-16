@@ -1,9 +1,17 @@
 section {
 background-color: $color-midTone-dark;
 }
-.flecha-abajo {
-color: $color-midTone-dark;
-width:45px;
-height:45px;
+// .flecha-abajo {
+// color: $color-midTone-dark;
+// width:45px;
+// height:45px;
+//
+// }
+.pepe {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: space-between;
 
 }

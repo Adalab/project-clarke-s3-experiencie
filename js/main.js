@@ -12,31 +12,22 @@ function showMenu() {
 hamburguerButton.addEventListener('click', showMenu);
 
 // colapsables
-var showStories = document.querySelector('.flecha-abajo');
-var stories = document.querySelector('.panel-body');
 
-function toggleInput(target){
-  if (target.classList.contains('hidden')){
-target.classList.remove('hidden');
-}
-  else {
-  target.classList.add('hidden');
-   }
+function displayStories(target) {
+  var idStories = target.currentTarget.getAttribute('data-id');
+  var stories = document.querySelectorAll('.panel-body');
+  var storiesContainer = document.querySelectorAll('.container-fluid');
+  stories[idStories].classList.toggle('hidden');
 }
 
-var toggle = function(){
-  document.querySelectorAll('.flecha-abajo').forEach(toggleInput);
-  var stories = document.querySelector('.panel-body');
-  toggleInput(stories);
-  };
-  document.querySelectorAll('.flecha-abajo').forEach(function (target) {
-    target.addEventListener('click', toggle);
-  });
+var storiesContainer = document.querySelectorAll('.container-fluid');
 
-if(showStories){
-  showStories.addEventListener('click', toggle);
-}
+for (var i = 0; i < storiesContainer.length; i++) {
 
+  if(storiesContainer){
+    storiesContainer[i].addEventListener('click', displayStories);
+  }
+};
 
 var counter = 0;
 var time = document.querySelector('.cie-counter');
