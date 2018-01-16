@@ -104,6 +104,16 @@ hr{
   align-items: center;
   background: $color-primary;
   cursor: pointer;
+  padding-top: 35px;
+  & a:hover{
+    color: $color-light;
+  }
+  & img{
+width: 200px;
+  @media (max-width: 500px){
+    width: 100px;
+  }
+}
   &:hover{
     animation-name: buttonNextSecRightAnimation;
     animation-duration: 1s;
@@ -118,6 +128,16 @@ hr{
   align-items: center;
   background: $color-primary;
   cursor: pointer;
+  padding-top: 35px;
+  & a:hover{
+    color: $color-light;
+  }
+  & img{
+  width: 200px;
+      @media (max-width: 500px){
+        width: 100px;
+      }
+    }
   &:hover{
     animation-name: buttonNextSecLeftAnimation;
     animation-duration: 1s;
