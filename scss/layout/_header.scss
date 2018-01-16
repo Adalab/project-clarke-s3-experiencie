@@ -102,13 +102,11 @@ header {
   line-height: $title-line-height;
   color: $color-light;
   font-weight: $title-font-weight-normal;
-  background-color: $color-midTone-dark;
   list-style: none;
   text-decoration: none;
   &:hover {
       color: $color-light;
-      background-color: $color-primary;
-  }
+ }
   @media all and (min-width:768px) {
     font-size: $body-font-size-m;
     font-weight: $body-font-weight-bold;
