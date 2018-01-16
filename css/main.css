@@ -715,7 +715,6 @@ ol {
   margin-top: 20px;
 }
 
-<<<<<<< HEAD
 section {
   background-color: #444;
 }
@@ -724,7 +723,8 @@ section {
   color: #444;
   width: 45px;
   height: 45px;
-=======
+}
+
 @media all and (min-width: 768px) {
   header {
     height: 125px;
@@ -799,7 +799,6 @@ section {
   .font-nav-dark {
     font-size: 16px;
   }
->>>>>>> c15bbecf73bf6077e5531afe373f2deb8710c8b9
 }
 
 @media (min-width: 768px) {
@@ -879,19 +878,9 @@ section {
   }
 }
 
-<<<<<<< HEAD
-@media all and (min-width: 768px) {
-  .font-title-section-dark {
-    font-size: 30px;
-  }
-
-  .font-nav-dark {
-    font-size: 16px;
-=======
 @media all and (min-width: 800px) {
   .menu-item {
     font-size: 20px;
->>>>>>> c15bbecf73bf6077e5531afe373f2deb8710c8b9
   }
 }
 
