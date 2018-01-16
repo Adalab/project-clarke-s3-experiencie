@@ -1,17 +1,10 @@
 section {
 background-color: $color-midTone-dark;
 }
-// .flecha-abajo {
-// color: $color-midTone-dark;
-// width:45px;
-// height:45px;
-//
-// }
-.pepe {
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-align-items: center;
-justify-content: space-between;
 
+.padding-left-none {
+padding-left: 0;
+}
+.padding-right-none {
+padding-right: 0;
 }

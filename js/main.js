@@ -67,4 +67,4 @@ function showMessage (){
 }
 
 
-carousel('pause')
+$('.carousel').carousel('pause');
